@@ -20,24 +20,20 @@ namespace LQF_PolishingSystem
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             
-            // 询问用户选择启动模式
-            DialogResult result = MessageBox.Show(
-                "是否启动模拟器测试界面？\n\n" +
-                "点击【是】- 启动运动控制模拟器测试\n" +
-                "点击【否】- 启动主程序",
-                "启动模式选择",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question);
-            
-            if (result == DialogResult.Yes)
+            // 直接启动主程序（内置模拟运动控制卡功能）
+            try
             {
-                // 启动模拟器测试界面
-                Application.Run(new SimulatorTestForm());
-            }
-            else
-            {
-                // 启动主程序
                 Application.Run(new Form1());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    "主程序启动失败！\n\n" +
+                    "错误信息：" + ex.Message + "\n\n" +
+                    "详细信息：\n" + ex.ToString(),
+                    "启动错误",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
             }
         }
     }

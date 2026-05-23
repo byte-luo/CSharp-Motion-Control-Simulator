@@ -35,1494 +35,1436 @@ namespace LQF_PolishingSystem
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.butstop = new System.Windows.Forms.Button();
-            this.butstart = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.labelzzuobiao = new System.Windows.Forms.Label();
-            this.labelyzuobiao = new System.Windows.Forms.Label();
-            this.labelxzuobiao = new System.Windows.Forms.Label();
-            this.labelxyzzuobiao = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.butzuobiaoqingchu = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.butzuobiaoqueding = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label6zhou = new System.Windows.Forms.Label();
-            this.label3zhou = new System.Windows.Forms.Label();
-            this.label5zhou = new System.Windows.Forms.Label();
-            this.label2zhou = new System.Windows.Forms.Label();
-            this.label4zhou = new System.Windows.Forms.Label();
-            this.label1zhou = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.combzsudu = new System.Windows.Forms.ComboBox();
-            this.combpaosu = new System.Windows.Forms.ComboBox();
-            this.combzzhuandong = new System.Windows.Forms.ComboBox();
-            this.combxzhuandong = new System.Windows.Forms.ComboBox();
-            this.combxsudu = new System.Windows.Forms.ComboBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.combysudu = new System.Windows.Forms.ComboBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.butjiting = new System.Windows.Forms.Button();
-            this.pictz2chang = new System.Windows.Forms.PictureBox();
-            this.combmoshi = new System.Windows.Forms.ComboBox();
-            this.pictz2dian = new System.Windows.Forms.PictureBox();
-            this.pictx2chang = new System.Windows.Forms.PictureBox();
-            this.pictz1chang = new System.Windows.Forms.PictureBox();
-            this.pictx2dian = new System.Windows.Forms.PictureBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.pictz1dian = new System.Windows.Forms.PictureBox();
-            this.pictx1chang = new System.Windows.Forms.PictureBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.pictx1dian = new System.Windows.Forms.PictureBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.butpao2dian = new System.Windows.Forms.Button();
-            this.butpao2chang = new System.Windows.Forms.Button();
-            this.butz2chang = new System.Windows.Forms.Button();
-            this.butzzhuanstop = new System.Windows.Forms.Button();
-            this.butpaostop2 = new System.Windows.Forms.Button();
-            this.butxzhuanstop = new System.Windows.Forms.Button();
-            this.butzchangstop = new System.Windows.Forms.Button();
-            this.butychangstop = new System.Windows.Forms.Button();
-            this.buty2chang = new System.Windows.Forms.Button();
-            this.butz2dian = new System.Windows.Forms.Button();
-            this.butpaohuanting = new System.Windows.Forms.Button();
-            this.butzzhuanhuanting = new System.Windows.Forms.Button();
-            this.butxzhuanhuanting = new System.Windows.Forms.Button();
-            this.butzchanghuanting = new System.Windows.Forms.Button();
-            this.butychanghuanting = new System.Windows.Forms.Button();
-            this.butxchanghuanting = new System.Windows.Forms.Button();
-            this.butxchangstop = new System.Windows.Forms.Button();
-            this.butx2chang = new System.Windows.Forms.Button();
-            this.butpao1dian = new System.Windows.Forms.Button();
-            this.butpao1chang = new System.Windows.Forms.Button();
-            this.buty2dian = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.butz1chang = new System.Windows.Forms.Button();
-            this.label36 = new System.Windows.Forms.Label();
-            this.butx2dian = new System.Windows.Forms.Button();
-            this.label33 = new System.Windows.Forms.Label();
-            this.butz1dian = new System.Windows.Forms.Button();
-            this.buty1chang = new System.Windows.Forms.Button();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.buty1dian = new System.Windows.Forms.Button();
-            this.butx1chang = new System.Windows.Forms.Button();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.butx1dian = new System.Windows.Forms.Button();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label53 = new System.Windows.Forms.Label();
-            this.textBcishu = new System.Windows.Forms.TextBox();
-            this.textBzhijing = new System.Windows.Forms.TextBox();
-            this.textBxjuli = new System.Windows.Forms.TextBox();
-            this.textByjuli = new System.Windows.Forms.TextBox();
-            this.butkaishi = new System.Windows.Forms.Button();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.combzouxiang = new System.Windows.Forms.ComboBox();
-            this.combguiji = new System.Windows.Forms.ComboBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel4.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictz2chang)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictz2dian)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictx2chang)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictz1chang)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictx2dian)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictz1dian)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictx1chang)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictx1dian)).BeginInit();
-            this.panel3.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.SuspendLayout();
+            panel1 = new System.Windows.Forms.Panel();
+            butstop = new System.Windows.Forms.Button();
+            butstart = new System.Windows.Forms.Button();
+            panel2 = new System.Windows.Forms.Panel();
+            labelzzuobiao = new System.Windows.Forms.Label();
+            labelyzuobiao = new System.Windows.Forms.Label();
+            labelxzuobiao = new System.Windows.Forms.Label();
+            labelxyzzuobiao = new System.Windows.Forms.Label();
+            label48 = new System.Windows.Forms.Label();
+            label14 = new System.Windows.Forms.Label();
+            pictureBox1 = new System.Windows.Forms.PictureBox();
+            label5 = new System.Windows.Forms.Label();
+            label4 = new System.Windows.Forms.Label();
+            label3 = new System.Windows.Forms.Label();
+            butzuobiaoqingchu = new System.Windows.Forms.Button();
+            label2 = new System.Windows.Forms.Label();
+            butzuobiaoqueding = new System.Windows.Forms.Button();
+            label1 = new System.Windows.Forms.Label();
+            panel4 = new System.Windows.Forms.Panel();
+            label6zhou = new System.Windows.Forms.Label();
+            label3zhou = new System.Windows.Forms.Label();
+            label5zhou = new System.Windows.Forms.Label();
+            label2zhou = new System.Windows.Forms.Label();
+            label4zhou = new System.Windows.Forms.Label();
+            label1zhou = new System.Windows.Forms.Label();
+            label12 = new System.Windows.Forms.Label();
+            label13 = new System.Windows.Forms.Label();
+            label11 = new System.Windows.Forms.Label();
+            label10 = new System.Windows.Forms.Label();
+            label9 = new System.Windows.Forms.Label();
+            label8 = new System.Windows.Forms.Label();
+            label7 = new System.Windows.Forms.Label();
+            panel6 = new System.Windows.Forms.Panel();
+            label16 = new System.Windows.Forms.Label();
+            combzsudu = new System.Windows.Forms.ComboBox();
+            combpaosu = new System.Windows.Forms.ComboBox();
+            combzzhuandong = new System.Windows.Forms.ComboBox();
+            combxzhuandong = new System.Windows.Forms.ComboBox();
+            combxsudu = new System.Windows.Forms.ComboBox();
+            label22 = new System.Windows.Forms.Label();
+            label24 = new System.Windows.Forms.Label();
+            combysudu = new System.Windows.Forms.ComboBox();
+            label23 = new System.Windows.Forms.Label();
+            label6 = new System.Windows.Forms.Label();
+            label21 = new System.Windows.Forms.Label();
+            label20 = new System.Windows.Forms.Label();
+            panel7 = new System.Windows.Forms.Panel();
+            butjiting = new System.Windows.Forms.Button();
+            pictz2chang = new System.Windows.Forms.PictureBox();
+            combmoshi = new System.Windows.Forms.ComboBox();
+            pictz2dian = new System.Windows.Forms.PictureBox();
+            pictx2chang = new System.Windows.Forms.PictureBox();
+            pictz1chang = new System.Windows.Forms.PictureBox();
+            pictx2dian = new System.Windows.Forms.PictureBox();
+            label35 = new System.Windows.Forms.Label();
+            pictz1dian = new System.Windows.Forms.PictureBox();
+            pictx1chang = new System.Windows.Forms.PictureBox();
+            label30 = new System.Windows.Forms.Label();
+            label34 = new System.Windows.Forms.Label();
+            pictx1dian = new System.Windows.Forms.PictureBox();
+            label29 = new System.Windows.Forms.Label();
+            butpao2dian = new System.Windows.Forms.Button();
+            butpao2chang = new System.Windows.Forms.Button();
+            butz2chang = new System.Windows.Forms.Button();
+            butzzhuanstop = new System.Windows.Forms.Button();
+            butpaostop2 = new System.Windows.Forms.Button();
+            butxzhuanstop = new System.Windows.Forms.Button();
+            butzchangstop = new System.Windows.Forms.Button();
+            butychangstop = new System.Windows.Forms.Button();
+            buty2chang = new System.Windows.Forms.Button();
+            butz2dian = new System.Windows.Forms.Button();
+            butpaohuanting = new System.Windows.Forms.Button();
+            butzzhuanhuanting = new System.Windows.Forms.Button();
+            butxzhuanhuanting = new System.Windows.Forms.Button();
+            butzchanghuanting = new System.Windows.Forms.Button();
+            butychanghuanting = new System.Windows.Forms.Button();
+            butxchanghuanting = new System.Windows.Forms.Button();
+            butxchangstop = new System.Windows.Forms.Button();
+            butx2chang = new System.Windows.Forms.Button();
+            butpao1dian = new System.Windows.Forms.Button();
+            butpao1chang = new System.Windows.Forms.Button();
+            buty2dian = new System.Windows.Forms.Button();
+            label15 = new System.Windows.Forms.Label();
+            butz1chang = new System.Windows.Forms.Button();
+            label36 = new System.Windows.Forms.Label();
+            butx2dian = new System.Windows.Forms.Button();
+            label33 = new System.Windows.Forms.Label();
+            butz1dian = new System.Windows.Forms.Button();
+            buty1chang = new System.Windows.Forms.Button();
+            label28 = new System.Windows.Forms.Label();
+            label32 = new System.Windows.Forms.Label();
+            buty1dian = new System.Windows.Forms.Button();
+            butx1chang = new System.Windows.Forms.Button();
+            label27 = new System.Windows.Forms.Label();
+            label31 = new System.Windows.Forms.Label();
+            butx1dian = new System.Windows.Forms.Button();
+            label26 = new System.Windows.Forms.Label();
+            label25 = new System.Windows.Forms.Label();
+            panel3 = new System.Windows.Forms.Panel();
+            label53 = new System.Windows.Forms.Label();
+            textBcishu = new System.Windows.Forms.TextBox();
+            textBzhijing = new System.Windows.Forms.TextBox();
+            textBxjuli = new System.Windows.Forms.TextBox();
+            textByjuli = new System.Windows.Forms.TextBox();
+            butkaishi = new System.Windows.Forms.Button();
+            label40 = new System.Windows.Forms.Label();
+            label41 = new System.Windows.Forms.Label();
+            label39 = new System.Windows.Forms.Label();
+            label55 = new System.Windows.Forms.Label();
+            label54 = new System.Windows.Forms.Label();
+            label38 = new System.Windows.Forms.Label();
+            combzouxiang = new System.Windows.Forms.ComboBox();
+            combguiji = new System.Windows.Forms.ComboBox();
+            panel5 = new System.Windows.Forms.Panel();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel4.SuspendLayout();
+            panel6.SuspendLayout();
+            panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictz2chang).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictz2dian).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictx2chang).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictz1chang).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictx2dian).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictz1dian).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictx1chang).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictx1dian).BeginInit();
+            panel3.SuspendLayout();
+            panel5.SuspendLayout();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.butstop);
-            this.panel1.Controls.Add(this.butstart);
-            this.panel1.Location = new System.Drawing.Point(13, 13);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(249, 51);
-            this.panel1.TabIndex = 0;
+            panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            panel1.Controls.Add(butstop);
+            panel1.Controls.Add(butstart);
+            panel1.Location = new System.Drawing.Point(13, 13);
+            panel1.Name = "panel1";
+            panel1.Size = new System.Drawing.Size(249, 51);
+            panel1.TabIndex = 0;
             // 
             // butstop
             // 
-            this.butstop.Location = new System.Drawing.Point(140, 3);
-            this.butstop.Name = "butstop";
-            this.butstop.Size = new System.Drawing.Size(94, 42);
-            this.butstop.TabIndex = 1;
-            this.butstop.Text = "断开";
-            this.butstop.UseVisualStyleBackColor = true;
-            this.butstop.Click += new System.EventHandler(this.butstop_Click);
+            butstop.Location = new System.Drawing.Point(140, 3);
+            butstop.Name = "butstop";
+            butstop.Size = new System.Drawing.Size(94, 42);
+            butstop.TabIndex = 1;
+            butstop.Text = "断开";
+            butstop.UseVisualStyleBackColor = true;
+            butstop.Click += butstop_Click;
             // 
             // butstart
             // 
-            this.butstart.Location = new System.Drawing.Point(3, 2);
-            this.butstart.Name = "butstart";
-            this.butstart.Size = new System.Drawing.Size(94, 42);
-            this.butstart.TabIndex = 0;
-            this.butstart.Text = "打开";
-            this.butstart.UseVisualStyleBackColor = true;
-            this.butstart.Click += new System.EventHandler(this.butstart_Click);
+            butstart.Location = new System.Drawing.Point(3, 2);
+            butstart.Name = "butstart";
+            butstart.Size = new System.Drawing.Size(94, 42);
+            butstart.TabIndex = 0;
+            butstart.Text = "打开";
+            butstart.UseVisualStyleBackColor = true;
+            butstart.Click += butstart_Click;
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.labelzzuobiao);
-            this.panel2.Controls.Add(this.labelyzuobiao);
-            this.panel2.Controls.Add(this.labelxzuobiao);
-            this.panel2.Controls.Add(this.labelxyzzuobiao);
-            this.panel2.Controls.Add(this.label48);
-            this.panel2.Controls.Add(this.label14);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.butzuobiaoqingchu);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.butzuobiaoqueding);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(12, 224);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(251, 374);
-            this.panel2.TabIndex = 1;
+            panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            panel2.Controls.Add(labelzzuobiao);
+            panel2.Controls.Add(labelyzuobiao);
+            panel2.Controls.Add(labelxzuobiao);
+            panel2.Controls.Add(labelxyzzuobiao);
+            panel2.Controls.Add(label48);
+            panel2.Controls.Add(label14);
+            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(label5);
+            panel2.Controls.Add(label4);
+            panel2.Controls.Add(label3);
+            panel2.Controls.Add(butzuobiaoqingchu);
+            panel2.Controls.Add(label2);
+            panel2.Controls.Add(butzuobiaoqueding);
+            panel2.Controls.Add(label1);
+            panel2.Location = new System.Drawing.Point(12, 224);
+            panel2.Name = "panel2";
+            panel2.Size = new System.Drawing.Size(251, 374);
+            panel2.TabIndex = 1;
             // 
             // labelzzuobiao
             // 
-            this.labelzzuobiao.AutoSize = true;
-            this.labelzzuobiao.Location = new System.Drawing.Point(82, 185);
-            this.labelzzuobiao.Name = "labelzzuobiao";
-            this.labelzzuobiao.Size = new System.Drawing.Size(18, 20);
-            this.labelzzuobiao.TabIndex = 13;
-            this.labelzzuobiao.Text = "0";
+            labelzzuobiao.AutoSize = true;
+            labelzzuobiao.Location = new System.Drawing.Point(82, 185);
+            labelzzuobiao.Name = "labelzzuobiao";
+            labelzzuobiao.Size = new System.Drawing.Size(18, 20);
+            labelzzuobiao.TabIndex = 13;
+            labelzzuobiao.Text = "0";
             // 
             // labelyzuobiao
             // 
-            this.labelyzuobiao.AutoSize = true;
-            this.labelyzuobiao.Location = new System.Drawing.Point(82, 153);
-            this.labelyzuobiao.Name = "labelyzuobiao";
-            this.labelyzuobiao.Size = new System.Drawing.Size(18, 20);
-            this.labelyzuobiao.TabIndex = 12;
-            this.labelyzuobiao.Text = "0";
+            labelyzuobiao.AutoSize = true;
+            labelyzuobiao.Location = new System.Drawing.Point(82, 153);
+            labelyzuobiao.Name = "labelyzuobiao";
+            labelyzuobiao.Size = new System.Drawing.Size(18, 20);
+            labelyzuobiao.TabIndex = 12;
+            labelyzuobiao.Text = "0";
             // 
             // labelxzuobiao
             // 
-            this.labelxzuobiao.AutoSize = true;
-            this.labelxzuobiao.Location = new System.Drawing.Point(82, 121);
-            this.labelxzuobiao.Name = "labelxzuobiao";
-            this.labelxzuobiao.Size = new System.Drawing.Size(18, 20);
-            this.labelxzuobiao.TabIndex = 11;
-            this.labelxzuobiao.Text = "0";
+            labelxzuobiao.AutoSize = true;
+            labelxzuobiao.Location = new System.Drawing.Point(82, 121);
+            labelxzuobiao.Name = "labelxzuobiao";
+            labelxzuobiao.Size = new System.Drawing.Size(18, 20);
+            labelxzuobiao.TabIndex = 11;
+            labelxzuobiao.Text = "0";
             // 
             // labelxyzzuobiao
             // 
-            this.labelxyzzuobiao.AutoSize = true;
-            this.labelxyzzuobiao.Location = new System.Drawing.Point(82, 214);
-            this.labelxyzzuobiao.Name = "labelxyzzuobiao";
-            this.labelxyzzuobiao.Size = new System.Drawing.Size(54, 20);
-            this.labelxyzzuobiao.TabIndex = 10;
-            this.labelxyzzuobiao.Text = "(0,0,0)";
+            labelxyzzuobiao.AutoSize = true;
+            labelxyzzuobiao.Location = new System.Drawing.Point(82, 214);
+            labelxyzzuobiao.Name = "labelxyzzuobiao";
+            labelxyzzuobiao.Size = new System.Drawing.Size(54, 20);
+            labelxyzzuobiao.TabIndex = 10;
+            labelxyzzuobiao.Text = "(0,0,0)";
             // 
             // label48
             // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(21, 213);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(54, 20);
-            this.label48.TabIndex = 9;
-            this.label48.Text = "坐标：";
+            label48.AutoSize = true;
+            label48.Location = new System.Drawing.Point(21, 213);
+            label48.Name = "label48";
+            label48.Size = new System.Drawing.Size(54, 20);
+            label48.TabIndex = 9;
+            label48.Text = "坐标：";
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(16, 257);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(82, 20);
-            this.label14.TabIndex = 8;
-            this.label14.Text = "单位：mm";
+            label14.AutoSize = true;
+            label14.Location = new System.Drawing.Point(16, 257);
+            label14.Name = "label14";
+            label14.Size = new System.Drawing.Size(82, 20);
+            label14.TabIndex = 8;
+            label14.Text = "单位：mm";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::LQF_PolishingSystem.Properties.Resources.坐标系;
-            this.pictureBox1.Location = new System.Drawing.Point(105, 265);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(144, 102);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.Image = Properties.Resources.坐标系;
+            pictureBox1.Location = new System.Drawing.Point(105, 265);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new System.Drawing.Size(144, 102);
+            pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 7;
+            pictureBox1.TabStop = false;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(21, 185);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 20);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "z坐标：";
+            label5.AutoSize = true;
+            label5.Location = new System.Drawing.Point(21, 185);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(61, 20);
+            label5.TabIndex = 6;
+            label5.Text = "z坐标：";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 152);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 20);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "y坐标：";
+            label4.AutoSize = true;
+            label4.Location = new System.Drawing.Point(20, 152);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(62, 20);
+            label4.TabIndex = 5;
+            label4.Text = "y坐标：";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 120);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 20);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "x坐标：";
+            label3.AutoSize = true;
+            label3.Location = new System.Drawing.Point(20, 120);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(62, 20);
+            label3.TabIndex = 4;
+            label3.Text = "x坐标：";
             // 
             // butzuobiaoqingchu
             // 
-            this.butzuobiaoqingchu.Location = new System.Drawing.Point(26, 67);
-            this.butzuobiaoqingchu.Name = "butzuobiaoqingchu";
-            this.butzuobiaoqingchu.Size = new System.Drawing.Size(78, 36);
-            this.butzuobiaoqingchu.TabIndex = 3;
-            this.butzuobiaoqingchu.Text = "清除";
-            this.butzuobiaoqingchu.UseVisualStyleBackColor = true;
+            butzuobiaoqingchu.Location = new System.Drawing.Point(26, 67);
+            butzuobiaoqingchu.Name = "butzuobiaoqingchu";
+            butzuobiaoqingchu.Size = new System.Drawing.Size(78, 36);
+            butzuobiaoqingchu.TabIndex = 3;
+            butzuobiaoqingchu.Text = "清除";
+            butzuobiaoqingchu.UseVisualStyleBackColor = true;
+            butzuobiaoqingchu.Click += new System.EventHandler(this.butzuobiaoqingchu_Click);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 40);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "设置坐标原点";
+            label2.AutoSize = true;
+            label2.Location = new System.Drawing.Point(20, 40);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(99, 20);
+            label2.TabIndex = 2;
+            label2.Text = "设置坐标原点";
             // 
             // butzuobiaoqueding
             // 
-            this.butzuobiaoqueding.Location = new System.Drawing.Point(149, 67);
-            this.butzuobiaoqueding.Name = "butzuobiaoqueding";
-            this.butzuobiaoqueding.Size = new System.Drawing.Size(78, 36);
-            this.butzuobiaoqueding.TabIndex = 1;
-            this.butzuobiaoqueding.Text = "确定";
-            this.butzuobiaoqueding.UseVisualStyleBackColor = true;
+            butzuobiaoqueding.Location = new System.Drawing.Point(149, 67);
+            butzuobiaoqueding.Name = "butzuobiaoqueding";
+            butzuobiaoqueding.Size = new System.Drawing.Size(78, 36);
+            butzuobiaoqueding.TabIndex = 1;
+            butzuobiaoqueding.Text = "确定";
+            butzuobiaoqueding.UseVisualStyleBackColor = true;
+            butzuobiaoqueding.Click += new System.EventHandler(this.butzuobiaoqueding_Click);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(82, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "三维坐标";
+            label1.AutoSize = true;
+            label1.Location = new System.Drawing.Point(82, 15);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(69, 20);
+            label1.TabIndex = 0;
+            label1.Text = "三维坐标";
             // 
             // panel4
             // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.Controls.Add(this.label6zhou);
-            this.panel4.Controls.Add(this.label3zhou);
-            this.panel4.Controls.Add(this.label5zhou);
-            this.panel4.Controls.Add(this.label2zhou);
-            this.panel4.Controls.Add(this.label4zhou);
-            this.panel4.Controls.Add(this.label1zhou);
-            this.panel4.Controls.Add(this.label12);
-            this.panel4.Controls.Add(this.label13);
-            this.panel4.Controls.Add(this.label11);
-            this.panel4.Controls.Add(this.label10);
-            this.panel4.Controls.Add(this.label9);
-            this.panel4.Controls.Add(this.label8);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Location = new System.Drawing.Point(13, 73);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(250, 145);
-            this.panel4.TabIndex = 3;
+            panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            panel4.Controls.Add(label6zhou);
+            panel4.Controls.Add(label3zhou);
+            panel4.Controls.Add(label5zhou);
+            panel4.Controls.Add(label2zhou);
+            panel4.Controls.Add(label4zhou);
+            panel4.Controls.Add(label1zhou);
+            panel4.Controls.Add(label12);
+            panel4.Controls.Add(label13);
+            panel4.Controls.Add(label11);
+            panel4.Controls.Add(label10);
+            panel4.Controls.Add(label9);
+            panel4.Controls.Add(label8);
+            panel4.Controls.Add(label7);
+            panel4.Location = new System.Drawing.Point(13, 73);
+            panel4.Name = "panel4";
+            panel4.Size = new System.Drawing.Size(250, 145);
+            panel4.TabIndex = 3;
             // 
             // label6zhou
             // 
-            this.label6zhou.AutoSize = true;
-            this.label6zhou.BackColor = System.Drawing.Color.Red;
-            this.label6zhou.Location = new System.Drawing.Point(187, 105);
-            this.label6zhou.Name = "label6zhou";
-            this.label6zhou.Size = new System.Drawing.Size(21, 20);
-            this.label6zhou.TabIndex = 2;
-            this.label6zhou.Text = "   ";
+            label6zhou.AutoSize = true;
+            label6zhou.BackColor = System.Drawing.Color.Red;
+            label6zhou.Location = new System.Drawing.Point(187, 105);
+            label6zhou.Name = "label6zhou";
+            label6zhou.Size = new System.Drawing.Size(21, 20);
+            label6zhou.TabIndex = 2;
+            label6zhou.Text = "   ";
             // 
             // label3zhou
             // 
-            this.label3zhou.AutoSize = true;
-            this.label3zhou.BackColor = System.Drawing.Color.Red;
-            this.label3zhou.Location = new System.Drawing.Point(64, 105);
-            this.label3zhou.Name = "label3zhou";
-            this.label3zhou.Size = new System.Drawing.Size(21, 20);
-            this.label3zhou.TabIndex = 2;
-            this.label3zhou.Text = "   ";
+            label3zhou.AutoSize = true;
+            label3zhou.BackColor = System.Drawing.Color.Red;
+            label3zhou.Location = new System.Drawing.Point(64, 105);
+            label3zhou.Name = "label3zhou";
+            label3zhou.Size = new System.Drawing.Size(21, 20);
+            label3zhou.TabIndex = 2;
+            label3zhou.Text = "   ";
             // 
             // label5zhou
             // 
-            this.label5zhou.AutoSize = true;
-            this.label5zhou.BackColor = System.Drawing.Color.Red;
-            this.label5zhou.Location = new System.Drawing.Point(187, 75);
-            this.label5zhou.Name = "label5zhou";
-            this.label5zhou.Size = new System.Drawing.Size(21, 20);
-            this.label5zhou.TabIndex = 2;
-            this.label5zhou.Text = "   ";
+            label5zhou.AutoSize = true;
+            label5zhou.BackColor = System.Drawing.Color.Red;
+            label5zhou.Location = new System.Drawing.Point(187, 75);
+            label5zhou.Name = "label5zhou";
+            label5zhou.Size = new System.Drawing.Size(21, 20);
+            label5zhou.TabIndex = 2;
+            label5zhou.Text = "   ";
             // 
             // label2zhou
             // 
-            this.label2zhou.AutoSize = true;
-            this.label2zhou.BackColor = System.Drawing.Color.Red;
-            this.label2zhou.Location = new System.Drawing.Point(64, 75);
-            this.label2zhou.Name = "label2zhou";
-            this.label2zhou.Size = new System.Drawing.Size(21, 20);
-            this.label2zhou.TabIndex = 2;
-            this.label2zhou.Text = "   ";
+            label2zhou.AutoSize = true;
+            label2zhou.BackColor = System.Drawing.Color.Red;
+            label2zhou.Location = new System.Drawing.Point(64, 75);
+            label2zhou.Name = "label2zhou";
+            label2zhou.Size = new System.Drawing.Size(21, 20);
+            label2zhou.TabIndex = 2;
+            label2zhou.Text = "   ";
             // 
             // label4zhou
             // 
-            this.label4zhou.AutoSize = true;
-            this.label4zhou.BackColor = System.Drawing.Color.Red;
-            this.label4zhou.Location = new System.Drawing.Point(187, 45);
-            this.label4zhou.Name = "label4zhou";
-            this.label4zhou.Size = new System.Drawing.Size(21, 20);
-            this.label4zhou.TabIndex = 2;
-            this.label4zhou.Text = "   ";
+            label4zhou.AutoSize = true;
+            label4zhou.BackColor = System.Drawing.Color.Red;
+            label4zhou.Location = new System.Drawing.Point(187, 45);
+            label4zhou.Name = "label4zhou";
+            label4zhou.Size = new System.Drawing.Size(21, 20);
+            label4zhou.TabIndex = 2;
+            label4zhou.Text = "   ";
             // 
             // label1zhou
             // 
-            this.label1zhou.AutoSize = true;
-            this.label1zhou.BackColor = System.Drawing.Color.Red;
-            this.label1zhou.Location = new System.Drawing.Point(64, 45);
-            this.label1zhou.Name = "label1zhou";
-            this.label1zhou.Size = new System.Drawing.Size(21, 20);
-            this.label1zhou.TabIndex = 2;
-            this.label1zhou.Text = "   ";
+            label1zhou.AutoSize = true;
+            label1zhou.BackColor = System.Drawing.Color.Red;
+            label1zhou.Location = new System.Drawing.Point(64, 45);
+            label1zhou.Name = "label1zhou";
+            label1zhou.Size = new System.Drawing.Size(21, 20);
+            label1zhou.TabIndex = 2;
+            label1zhou.Text = "   ";
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(148, 75);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(33, 20);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "5轴";
+            label12.AutoSize = true;
+            label12.Location = new System.Drawing.Point(148, 75);
+            label12.Name = "label12";
+            label12.Size = new System.Drawing.Size(33, 20);
+            label12.TabIndex = 1;
+            label12.Text = "5轴";
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(148, 105);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(33, 20);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "6轴";
+            label13.AutoSize = true;
+            label13.Location = new System.Drawing.Point(148, 105);
+            label13.Name = "label13";
+            label13.Size = new System.Drawing.Size(33, 20);
+            label13.TabIndex = 1;
+            label13.Text = "6轴";
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(148, 45);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(33, 20);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "4轴";
+            label11.AutoSize = true;
+            label11.Location = new System.Drawing.Point(148, 45);
+            label11.Name = "label11";
+            label11.Size = new System.Drawing.Size(33, 20);
+            label11.TabIndex = 1;
+            label11.Text = "4轴";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(25, 105);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(33, 20);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "3轴";
+            label10.AutoSize = true;
+            label10.Location = new System.Drawing.Point(25, 105);
+            label10.Name = "label10";
+            label10.Size = new System.Drawing.Size(33, 20);
+            label10.TabIndex = 1;
+            label10.Text = "3轴";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(25, 75);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(33, 20);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "2轴";
+            label9.AutoSize = true;
+            label9.Location = new System.Drawing.Point(25, 75);
+            label9.Name = "label9";
+            label9.Size = new System.Drawing.Size(33, 20);
+            label9.TabIndex = 1;
+            label9.Text = "2轴";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(25, 45);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(33, 20);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "1轴";
+            label8.AutoSize = true;
+            label8.Location = new System.Drawing.Point(25, 45);
+            label8.Name = "label8";
+            label8.Size = new System.Drawing.Size(33, 20);
+            label8.TabIndex = 1;
+            label8.Text = "1轴";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(96, 6);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(54, 20);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "轴状态";
+            label7.AutoSize = true;
+            label7.Location = new System.Drawing.Point(96, 6);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(54, 20);
+            label7.TabIndex = 0;
+            label7.Text = "轴状态";
             // 
             // panel6
             // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel6.Controls.Add(this.label16);
-            this.panel6.Controls.Add(this.combzsudu);
-            this.panel6.Controls.Add(this.combpaosu);
-            this.panel6.Controls.Add(this.combzzhuandong);
-            this.panel6.Controls.Add(this.combxzhuandong);
-            this.panel6.Controls.Add(this.combxsudu);
-            this.panel6.Controls.Add(this.label22);
-            this.panel6.Controls.Add(this.label24);
-            this.panel6.Controls.Add(this.combysudu);
-            this.panel6.Controls.Add(this.label23);
-            this.panel6.Controls.Add(this.label6);
-            this.panel6.Controls.Add(this.label21);
-            this.panel6.Controls.Add(this.label20);
-            this.panel6.Location = new System.Drawing.Point(4, 3);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(692, 125);
-            this.panel6.TabIndex = 0;
+            panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            panel6.Controls.Add(label16);
+            panel6.Controls.Add(combzsudu);
+            panel6.Controls.Add(combpaosu);
+            panel6.Controls.Add(combzzhuandong);
+            panel6.Controls.Add(combxzhuandong);
+            panel6.Controls.Add(combxsudu);
+            panel6.Controls.Add(label22);
+            panel6.Controls.Add(label24);
+            panel6.Controls.Add(combysudu);
+            panel6.Controls.Add(label23);
+            panel6.Controls.Add(label6);
+            panel6.Controls.Add(label21);
+            panel6.Controls.Add(label20);
+            panel6.Location = new System.Drawing.Point(4, 3);
+            panel6.Name = "panel6";
+            panel6.Size = new System.Drawing.Size(692, 125);
+            panel6.TabIndex = 0;
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(13, 11);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(69, 20);
-            this.label16.TabIndex = 12;
-            this.label16.Text = "选择速度";
+            label16.AutoSize = true;
+            label16.Location = new System.Drawing.Point(13, 11);
+            label16.Name = "label16";
+            label16.Size = new System.Drawing.Size(69, 20);
+            label16.TabIndex = 12;
+            label16.Text = "选择速度";
             // 
             // combzsudu
             // 
-            this.combzsudu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combzsudu.FormattingEnabled = true;
-            this.combzsudu.Items.AddRange(new object[] {
-            "0",
-            "10r/min",
-            "20r/min",
-            "30r/min",
-            "40r/min",
-            "50r/min",
-            "60r/min",
-            "70r/min",
-            "80r/min"});
-            this.combzsudu.Location = new System.Drawing.Point(566, 39);
-            this.combzsudu.Name = "combzsudu";
-            this.combzsudu.Size = new System.Drawing.Size(89, 28);
-            this.combzsudu.TabIndex = 1;
-            this.combzsudu.SelectedIndexChanged += new System.EventHandler(this.combzsudu_SelectedIndexChanged);
+            combzsudu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            combzsudu.FormattingEnabled = true;
+            combzsudu.Items.AddRange(new object[] { "0", "10r/min", "20r/min", "30r/min", "40r/min", "50r/min", "60r/min", "70r/min", "80r/min" });
+            combzsudu.Location = new System.Drawing.Point(566, 39);
+            combzsudu.Name = "combzsudu";
+            combzsudu.Size = new System.Drawing.Size(89, 28);
+            combzsudu.TabIndex = 1;
+            combzsudu.SelectedIndexChanged += combzsudu_SelectedIndexChanged;
             // 
             // combpaosu
             // 
-            this.combpaosu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combpaosu.FormattingEnabled = true;
-            this.combpaosu.Items.AddRange(new object[] {
-            "0",
-            "10r/min",
-            "20r/min",
-            "30r/min",
-            "40r/min",
-            "50r/min",
-            "60r/min",
-            "70r/min",
-            "80r/min"});
-            this.combpaosu.Location = new System.Drawing.Point(566, 83);
-            this.combpaosu.Name = "combpaosu";
-            this.combpaosu.Size = new System.Drawing.Size(89, 28);
-            this.combpaosu.TabIndex = 1;
-            this.combpaosu.SelectedIndexChanged += new System.EventHandler(this.combpaosu_SelectedIndexChanged);
+            combpaosu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            combpaosu.FormattingEnabled = true;
+            combpaosu.Items.AddRange(new object[] { "0", "10r/min", "20r/min", "30r/min", "40r/min", "50r/min", "60r/min", "70r/min", "80r/min" });
+            combpaosu.Location = new System.Drawing.Point(566, 83);
+            combpaosu.Name = "combpaosu";
+            combpaosu.Size = new System.Drawing.Size(89, 28);
+            combpaosu.TabIndex = 1;
+            combpaosu.SelectedIndexChanged += combpaosu_SelectedIndexChanged;
             // 
             // combzzhuandong
             // 
-            this.combzzhuandong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combzzhuandong.FormattingEnabled = true;
-            this.combzzhuandong.Items.AddRange(new object[] {
-            "0",
-            "10r/min",
-            "20r/min",
-            "30r/min",
-            "40r/min",
-            "50r/min",
-            "60r/min",
-            "70r/min",
-            "80r/min"});
-            this.combzzhuandong.Location = new System.Drawing.Point(339, 83);
-            this.combzzhuandong.Name = "combzzhuandong";
-            this.combzzhuandong.Size = new System.Drawing.Size(89, 28);
-            this.combzzhuandong.TabIndex = 1;
-            this.combzzhuandong.SelectedIndexChanged += new System.EventHandler(this.combzzhuandong_SelectedIndexChanged);
+            combzzhuandong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            combzzhuandong.FormattingEnabled = true;
+            combzzhuandong.Items.AddRange(new object[] { "0", "10r/min", "20r/min", "30r/min", "40r/min", "50r/min", "60r/min", "70r/min", "80r/min" });
+            combzzhuandong.Location = new System.Drawing.Point(339, 83);
+            combzzhuandong.Name = "combzzhuandong";
+            combzzhuandong.Size = new System.Drawing.Size(89, 28);
+            combzzhuandong.TabIndex = 1;
+            combzzhuandong.SelectedIndexChanged += combzzhuandong_SelectedIndexChanged;
             // 
             // combxzhuandong
             // 
-            this.combxzhuandong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combxzhuandong.FormattingEnabled = true;
-            this.combxzhuandong.Items.AddRange(new object[] {
-            "0",
-            "0.23 rad/s",
-            "0.47  rad/s",
-            "0.52  rad/s",
-            "0.58  rad/s",
-            "0.64  rad/s",
-            "0.70  rad/s"});
-            this.combxzhuandong.Location = new System.Drawing.Point(106, 83);
-            this.combxzhuandong.Name = "combxzhuandong";
-            this.combxzhuandong.Size = new System.Drawing.Size(89, 28);
-            this.combxzhuandong.TabIndex = 1;
-            this.combxzhuandong.SelectedIndexChanged += new System.EventHandler(this.combxzhuandong_SelectedIndexChanged);
+            combxzhuandong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            combxzhuandong.FormattingEnabled = true;
+            combxzhuandong.Items.AddRange(new object[] { "0", "0.23 rad/s", "0.47  rad/s", "0.52  rad/s", "0.58  rad/s", "0.64  rad/s", "0.70  rad/s" });
+            combxzhuandong.Location = new System.Drawing.Point(106, 83);
+            combxzhuandong.Name = "combxzhuandong";
+            combxzhuandong.Size = new System.Drawing.Size(89, 28);
+            combxzhuandong.TabIndex = 1;
+            combxzhuandong.SelectedIndexChanged += combxzhuandong_SelectedIndexChanged;
             // 
             // combxsudu
             // 
-            this.combxsudu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combxsudu.FormattingEnabled = true;
-            this.combxsudu.Items.AddRange(new object[] {
-            "0",
-            "10r/min",
-            "20r/min",
-            "30r/min",
-            "40r/min",
-            "50r/min",
-            "60r/min",
-            "70r/min",
-            "80r/min"});
-            this.combxsudu.Location = new System.Drawing.Point(106, 39);
-            this.combxsudu.Name = "combxsudu";
-            this.combxsudu.Size = new System.Drawing.Size(89, 28);
-            this.combxsudu.TabIndex = 1;
-            this.combxsudu.SelectedIndexChanged += new System.EventHandler(this.combxsudu_SelectedIndexChanged);
+            combxsudu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            combxsudu.FormattingEnabled = true;
+            combxsudu.Items.AddRange(new object[] { "0", "10r/min", "20r/min", "30r/min", "40r/min", "50r/min", "60r/min", "70r/min", "80r/min" });
+            combxsudu.Location = new System.Drawing.Point(106, 39);
+            combxsudu.Name = "combxsudu";
+            combxsudu.Size = new System.Drawing.Size(89, 28);
+            combxsudu.TabIndex = 1;
+            combxsudu.SelectedIndexChanged += combxsudu_SelectedIndexChanged;
             // 
             // label22
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(469, 42);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(91, 20);
-            this.label22.TabIndex = 1;
-            this.label22.Text = "z轴直动速度";
+            label22.AutoSize = true;
+            label22.Location = new System.Drawing.Point(469, 42);
+            label22.Name = "label22";
+            label22.Size = new System.Drawing.Size(91, 20);
+            label22.TabIndex = 1;
+            label22.Text = "z轴直动速度";
             // 
             // label24
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(469, 86);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(84, 20);
-            this.label24.TabIndex = 1;
-            this.label24.Text = "抛光轮转速";
+            label24.AutoSize = true;
+            label24.Location = new System.Drawing.Point(469, 86);
+            label24.Name = "label24";
+            label24.Size = new System.Drawing.Size(84, 20);
+            label24.TabIndex = 1;
+            label24.Text = "抛光轮转速";
             // 
             // combysudu
             // 
-            this.combysudu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combysudu.FormattingEnabled = true;
-            this.combysudu.Items.AddRange(new object[] {
-            "0",
-            "10r/min",
-            "20r/min",
-            "30r/min",
-            "40r/min",
-            "50r/min",
-            "60r/min",
-            "70r/min",
-            "80r/min"});
-            this.combysudu.Location = new System.Drawing.Point(339, 39);
-            this.combysudu.Name = "combysudu";
-            this.combysudu.Size = new System.Drawing.Size(89, 28);
-            this.combysudu.TabIndex = 1;
-            this.combysudu.SelectedIndexChanged += new System.EventHandler(this.combysudu_SelectedIndexChanged);
+            combysudu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            combysudu.FormattingEnabled = true;
+            combysudu.Items.AddRange(new object[] { "0", "10r/min", "20r/min", "30r/min", "40r/min", "50r/min", "60r/min", "70r/min", "80r/min" });
+            combysudu.Location = new System.Drawing.Point(339, 39);
+            combysudu.Name = "combysudu";
+            combysudu.Size = new System.Drawing.Size(89, 28);
+            combysudu.TabIndex = 1;
+            combysudu.SelectedIndexChanged += combysudu_SelectedIndexChanged;
             // 
             // label23
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(241, 86);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(91, 20);
-            this.label23.TabIndex = 1;
-            this.label23.Text = "z轴转动速度";
+            label23.AutoSize = true;
+            label23.Location = new System.Drawing.Point(241, 86);
+            label23.Name = "label23";
+            label23.Size = new System.Drawing.Size(91, 20);
+            label23.TabIndex = 1;
+            label23.Text = "z轴转动速度";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(241, 42);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 20);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "y轴直动速度";
+            label6.AutoSize = true;
+            label6.Location = new System.Drawing.Point(241, 42);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(92, 20);
+            label6.TabIndex = 1;
+            label6.Text = "y轴直动速度";
             // 
             // label21
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(8, 86);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(92, 20);
-            this.label21.TabIndex = 1;
-            this.label21.Text = "x轴转动速度";
+            label21.AutoSize = true;
+            label21.Location = new System.Drawing.Point(8, 86);
+            label21.Name = "label21";
+            label21.Size = new System.Drawing.Size(92, 20);
+            label21.TabIndex = 1;
+            label21.Text = "x轴转动速度";
             // 
             // label20
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(8, 41);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(92, 20);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "x轴直动速度";
+            label20.AutoSize = true;
+            label20.Location = new System.Drawing.Point(8, 41);
+            label20.Name = "label20";
+            label20.Size = new System.Drawing.Size(92, 20);
+            label20.TabIndex = 1;
+            label20.Text = "x轴直动速度";
             // 
             // panel7
             // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel7.Controls.Add(this.butjiting);
-            this.panel7.Controls.Add(this.pictz2chang);
-            this.panel7.Controls.Add(this.combmoshi);
-            this.panel7.Controls.Add(this.pictz2dian);
-            this.panel7.Controls.Add(this.pictx2chang);
-            this.panel7.Controls.Add(this.pictz1chang);
-            this.panel7.Controls.Add(this.pictx2dian);
-            this.panel7.Controls.Add(this.label35);
-            this.panel7.Controls.Add(this.pictz1dian);
-            this.panel7.Controls.Add(this.pictx1chang);
-            this.panel7.Controls.Add(this.label30);
-            this.panel7.Controls.Add(this.label34);
-            this.panel7.Controls.Add(this.pictx1dian);
-            this.panel7.Controls.Add(this.label29);
-            this.panel7.Controls.Add(this.butpao2dian);
-            this.panel7.Controls.Add(this.butpao2chang);
-            this.panel7.Controls.Add(this.butz2chang);
-            this.panel7.Controls.Add(this.butzzhuanstop);
-            this.panel7.Controls.Add(this.butpaostop2);
-            this.panel7.Controls.Add(this.butxzhuanstop);
-            this.panel7.Controls.Add(this.butzchangstop);
-            this.panel7.Controls.Add(this.butychangstop);
-            this.panel7.Controls.Add(this.buty2chang);
-            this.panel7.Controls.Add(this.butz2dian);
-            this.panel7.Controls.Add(this.butpaohuanting);
-            this.panel7.Controls.Add(this.butzzhuanhuanting);
-            this.panel7.Controls.Add(this.butxzhuanhuanting);
-            this.panel7.Controls.Add(this.butzchanghuanting);
-            this.panel7.Controls.Add(this.butychanghuanting);
-            this.panel7.Controls.Add(this.butxchanghuanting);
-            this.panel7.Controls.Add(this.butxchangstop);
-            this.panel7.Controls.Add(this.butx2chang);
-            this.panel7.Controls.Add(this.butpao1dian);
-            this.panel7.Controls.Add(this.butpao1chang);
-            this.panel7.Controls.Add(this.buty2dian);
-            this.panel7.Controls.Add(this.label15);
-            this.panel7.Controls.Add(this.butz1chang);
-            this.panel7.Controls.Add(this.label36);
-            this.panel7.Controls.Add(this.butx2dian);
-            this.panel7.Controls.Add(this.label33);
-            this.panel7.Controls.Add(this.butz1dian);
-            this.panel7.Controls.Add(this.buty1chang);
-            this.panel7.Controls.Add(this.label28);
-            this.panel7.Controls.Add(this.label32);
-            this.panel7.Controls.Add(this.buty1dian);
-            this.panel7.Controls.Add(this.butx1chang);
-            this.panel7.Controls.Add(this.label27);
-            this.panel7.Controls.Add(this.label31);
-            this.panel7.Controls.Add(this.butx1dian);
-            this.panel7.Controls.Add(this.label26);
-            this.panel7.Controls.Add(this.label25);
-            this.panel7.Location = new System.Drawing.Point(4, 134);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(692, 313);
-            this.panel7.TabIndex = 1;
+            panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            panel7.Controls.Add(butjiting);
+            panel7.Controls.Add(pictz2chang);
+            panel7.Controls.Add(combmoshi);
+            panel7.Controls.Add(pictz2dian);
+            panel7.Controls.Add(pictx2chang);
+            panel7.Controls.Add(pictz1chang);
+            panel7.Controls.Add(pictx2dian);
+            panel7.Controls.Add(label35);
+            panel7.Controls.Add(pictz1dian);
+            panel7.Controls.Add(pictx1chang);
+            panel7.Controls.Add(label30);
+            panel7.Controls.Add(label34);
+            panel7.Controls.Add(pictx1dian);
+            panel7.Controls.Add(label29);
+            panel7.Controls.Add(butpao2dian);
+            panel7.Controls.Add(butpao2chang);
+            panel7.Controls.Add(butz2chang);
+            panel7.Controls.Add(butzzhuanstop);
+            panel7.Controls.Add(butpaostop2);
+            panel7.Controls.Add(butxzhuanstop);
+            panel7.Controls.Add(butzchangstop);
+            panel7.Controls.Add(butychangstop);
+            panel7.Controls.Add(buty2chang);
+            panel7.Controls.Add(butz2dian);
+            panel7.Controls.Add(butpaohuanting);
+            panel7.Controls.Add(butzzhuanhuanting);
+            panel7.Controls.Add(butxzhuanhuanting);
+            panel7.Controls.Add(butzchanghuanting);
+            panel7.Controls.Add(butychanghuanting);
+            panel7.Controls.Add(butxchanghuanting);
+            panel7.Controls.Add(butxchangstop);
+            panel7.Controls.Add(butx2chang);
+            panel7.Controls.Add(butpao1dian);
+            panel7.Controls.Add(butpao1chang);
+            panel7.Controls.Add(buty2dian);
+            panel7.Controls.Add(label15);
+            panel7.Controls.Add(butz1chang);
+            panel7.Controls.Add(label36);
+            panel7.Controls.Add(butx2dian);
+            panel7.Controls.Add(label33);
+            panel7.Controls.Add(butz1dian);
+            panel7.Controls.Add(buty1chang);
+            panel7.Controls.Add(label28);
+            panel7.Controls.Add(label32);
+            panel7.Controls.Add(buty1dian);
+            panel7.Controls.Add(butx1chang);
+            panel7.Controls.Add(label27);
+            panel7.Controls.Add(label31);
+            panel7.Controls.Add(butx1dian);
+            panel7.Controls.Add(label26);
+            panel7.Controls.Add(label25);
+            panel7.Location = new System.Drawing.Point(4, 134);
+            panel7.Name = "panel7";
+            panel7.Size = new System.Drawing.Size(968, 313);
+            panel7.TabIndex = 1;
             // 
             // butjiting
             // 
-            this.butjiting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butjiting.Font = new System.Drawing.Font("Microsoft YaHei UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butjiting.Location = new System.Drawing.Point(582, 120);
-            this.butjiting.Name = "butjiting";
-            this.butjiting.Size = new System.Drawing.Size(97, 132);
-            this.butjiting.TabIndex = 9;
-            this.butjiting.Text = "急停";
-            this.butjiting.UseVisualStyleBackColor = false;
-            this.butjiting.Click += new System.EventHandler(this.butjiting_Click);
+            butjiting.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butjiting.Font = new System.Drawing.Font("Microsoft YaHei UI", 22.2F);
+            butjiting.Location = new System.Drawing.Point(582, 120);
+            butjiting.Name = "butjiting";
+            butjiting.Size = new System.Drawing.Size(97, 132);
+            butjiting.TabIndex = 9;
+            butjiting.Text = "急停";
+            butjiting.UseVisualStyleBackColor = false;
+            butjiting.Click += butjiting_Click;
             // 
             // pictz2chang
             // 
-            this.pictz2chang.BackColor = System.Drawing.Color.White;
-            this.pictz2chang.Image = ((System.Drawing.Image)(resources.GetObject("pictz2chang.Image")));
-            this.pictz2chang.Location = new System.Drawing.Point(383, 212);
-            this.pictz2chang.Name = "pictz2chang";
-            this.pictz2chang.Size = new System.Drawing.Size(44, 40);
-            this.pictz2chang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictz2chang.TabIndex = 8;
-            this.pictz2chang.TabStop = false;
-            this.pictz2chang.Click += new System.EventHandler(this.pictz2chang_Click);
+            pictz2chang.BackColor = System.Drawing.Color.White;
+            pictz2chang.Image = (System.Drawing.Image)resources.GetObject("pictz2chang.Image");
+            pictz2chang.Location = new System.Drawing.Point(383, 212);
+            pictz2chang.Name = "pictz2chang";
+            pictz2chang.Size = new System.Drawing.Size(44, 40);
+            pictz2chang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictz2chang.TabIndex = 8;
+            pictz2chang.TabStop = false;
+            pictz2chang.Click += pictz2chang_Click;
             // 
             // combmoshi
             // 
-            this.combmoshi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combmoshi.FormattingEnabled = true;
-            this.combmoshi.Items.AddRange(new object[] {
-            "点动",
-            "长动",
-            "自动走轨迹"});
-            this.combmoshi.Location = new System.Drawing.Point(578, 43);
-            this.combmoshi.Name = "combmoshi";
-            this.combmoshi.Size = new System.Drawing.Size(101, 28);
-            this.combmoshi.TabIndex = 6;
-            this.combmoshi.SelectedIndexChanged += new System.EventHandler(this.combmoshi_SelectedIndexChanged);
+            combmoshi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            combmoshi.FormattingEnabled = true;
+            combmoshi.Items.AddRange(new object[] { "点动", "长动", "自动走轨迹" });
+            combmoshi.Location = new System.Drawing.Point(578, 43);
+            combmoshi.Name = "combmoshi";
+            combmoshi.Size = new System.Drawing.Size(101, 28);
+            combmoshi.TabIndex = 6;
+            combmoshi.SelectedIndexChanged += combmoshi_SelectedIndexChanged;
             // 
             // pictz2dian
             // 
-            this.pictz2dian.BackColor = System.Drawing.Color.White;
-            this.pictz2dian.Image = ((System.Drawing.Image)(resources.GetObject("pictz2dian.Image")));
-            this.pictz2dian.Location = new System.Drawing.Point(154, 212);
-            this.pictz2dian.Name = "pictz2dian";
-            this.pictz2dian.Size = new System.Drawing.Size(44, 40);
-            this.pictz2dian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictz2dian.TabIndex = 8;
-            this.pictz2dian.TabStop = false;
-            this.pictz2dian.Click += new System.EventHandler(this.pictz2dian_Click);
-            this.pictz2dian.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictz2dian_MouseDown);
-            this.pictz2dian.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictz2dian_MouseUp);
+            pictz2dian.BackColor = System.Drawing.Color.White;
+            pictz2dian.Image = (System.Drawing.Image)resources.GetObject("pictz2dian.Image");
+            pictz2dian.Location = new System.Drawing.Point(154, 212);
+            pictz2dian.Name = "pictz2dian";
+            pictz2dian.Size = new System.Drawing.Size(44, 40);
+            pictz2dian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictz2dian.TabIndex = 8;
+            pictz2dian.TabStop = false;
+            pictz2dian.Click += pictz2dian_Click;
+            pictz2dian.MouseDown += pictz2dian_MouseDown;
+            pictz2dian.MouseUp += pictz2dian_MouseUp;
             // 
             // pictx2chang
             // 
-            this.pictx2chang.BackColor = System.Drawing.Color.White;
-            this.pictx2chang.Image = ((System.Drawing.Image)(resources.GetObject("pictx2chang.Image")));
-            this.pictx2chang.Location = new System.Drawing.Point(383, 166);
-            this.pictx2chang.Name = "pictx2chang";
-            this.pictx2chang.Size = new System.Drawing.Size(44, 40);
-            this.pictx2chang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictx2chang.TabIndex = 8;
-            this.pictx2chang.TabStop = false;
-            this.pictx2chang.Click += new System.EventHandler(this.pictx2chang_Click);
+            pictx2chang.BackColor = System.Drawing.Color.White;
+            pictx2chang.Image = (System.Drawing.Image)resources.GetObject("pictx2chang.Image");
+            pictx2chang.Location = new System.Drawing.Point(383, 166);
+            pictx2chang.Name = "pictx2chang";
+            pictx2chang.Size = new System.Drawing.Size(44, 40);
+            pictx2chang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictx2chang.TabIndex = 8;
+            pictx2chang.TabStop = false;
+            pictx2chang.Click += pictx2chang_Click;
             // 
             // pictz1chang
             // 
-            this.pictz1chang.BackColor = System.Drawing.Color.White;
-            this.pictz1chang.Image = ((System.Drawing.Image)(resources.GetObject("pictz1chang.Image")));
-            this.pictz1chang.Location = new System.Drawing.Point(324, 212);
-            this.pictz1chang.Name = "pictz1chang";
-            this.pictz1chang.Size = new System.Drawing.Size(44, 40);
-            this.pictz1chang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictz1chang.TabIndex = 8;
-            this.pictz1chang.TabStop = false;
-            this.pictz1chang.Click += new System.EventHandler(this.pictz1chang_Click);
+            pictz1chang.BackColor = System.Drawing.Color.White;
+            pictz1chang.Image = (System.Drawing.Image)resources.GetObject("pictz1chang.Image");
+            pictz1chang.Location = new System.Drawing.Point(324, 212);
+            pictz1chang.Name = "pictz1chang";
+            pictz1chang.Size = new System.Drawing.Size(44, 40);
+            pictz1chang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictz1chang.TabIndex = 8;
+            pictz1chang.TabStop = false;
+            pictz1chang.Click += pictz1chang_Click;
             // 
             // pictx2dian
             // 
-            this.pictx2dian.BackColor = System.Drawing.Color.White;
-            this.pictx2dian.Image = ((System.Drawing.Image)(resources.GetObject("pictx2dian.Image")));
-            this.pictx2dian.Location = new System.Drawing.Point(154, 166);
-            this.pictx2dian.Name = "pictx2dian";
-            this.pictx2dian.Size = new System.Drawing.Size(44, 40);
-            this.pictx2dian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictx2dian.TabIndex = 8;
-            this.pictx2dian.TabStop = false;
-            this.pictx2dian.Click += new System.EventHandler(this.pictx2dian_Click);
-            this.pictx2dian.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictx2dian_MouseDown);
-            this.pictx2dian.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictx2dian_MouseUp);
+            pictx2dian.BackColor = System.Drawing.Color.White;
+            pictx2dian.Image = (System.Drawing.Image)resources.GetObject("pictx2dian.Image");
+            pictx2dian.Location = new System.Drawing.Point(154, 166);
+            pictx2dian.Name = "pictx2dian";
+            pictx2dian.Size = new System.Drawing.Size(44, 40);
+            pictx2dian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictx2dian.TabIndex = 8;
+            pictx2dian.TabStop = false;
+            pictx2dian.Click += pictx2dian_Click;
+            pictx2dian.MouseDown += pictx2dian_MouseDown;
+            pictx2dian.MouseUp += pictx2dian_MouseUp;
             // 
             // label35
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(242, 224);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(61, 20);
-            this.label35.TabIndex = 7;
-            this.label35.Text = "z轴转动";
+            label35.AutoSize = true;
+            label35.Location = new System.Drawing.Point(242, 224);
+            label35.Name = "label35";
+            label35.Size = new System.Drawing.Size(61, 20);
+            label35.TabIndex = 7;
+            label35.Text = "z轴转动";
             // 
             // pictz1dian
             // 
-            this.pictz1dian.BackColor = System.Drawing.Color.White;
-            this.pictz1dian.Image = ((System.Drawing.Image)(resources.GetObject("pictz1dian.Image")));
-            this.pictz1dian.Location = new System.Drawing.Point(95, 212);
-            this.pictz1dian.Name = "pictz1dian";
-            this.pictz1dian.Size = new System.Drawing.Size(44, 40);
-            this.pictz1dian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictz1dian.TabIndex = 8;
-            this.pictz1dian.TabStop = false;
-            this.pictz1dian.Click += new System.EventHandler(this.pictz1dian_Click);
-            this.pictz1dian.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictz1dian_MouseDown);
-            this.pictz1dian.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictz1dian_MouseUp);
+            pictz1dian.BackColor = System.Drawing.Color.White;
+            pictz1dian.Image = (System.Drawing.Image)resources.GetObject("pictz1dian.Image");
+            pictz1dian.Location = new System.Drawing.Point(95, 212);
+            pictz1dian.Name = "pictz1dian";
+            pictz1dian.Size = new System.Drawing.Size(44, 40);
+            pictz1dian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictz1dian.TabIndex = 8;
+            pictz1dian.TabStop = false;
+            pictz1dian.Click += pictz1dian_Click;
+            pictz1dian.MouseDown += pictz1dian_MouseDown;
+            pictz1dian.MouseUp += pictz1dian_MouseUp;
             // 
             // pictx1chang
             // 
-            this.pictx1chang.BackColor = System.Drawing.Color.White;
-            this.pictx1chang.Image = global::LQF_PolishingSystem.Properties.Resources.旋转_2;
-            this.pictx1chang.Location = new System.Drawing.Point(324, 166);
-            this.pictx1chang.Name = "pictx1chang";
-            this.pictx1chang.Size = new System.Drawing.Size(44, 40);
-            this.pictx1chang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictx1chang.TabIndex = 8;
-            this.pictx1chang.TabStop = false;
-            this.pictx1chang.Click += new System.EventHandler(this.pictx1chang_Click);
+            pictx1chang.BackColor = System.Drawing.Color.White;
+            pictx1chang.Image = Properties.Resources.旋转_2;
+            pictx1chang.Location = new System.Drawing.Point(324, 166);
+            pictx1chang.Name = "pictx1chang";
+            pictx1chang.Size = new System.Drawing.Size(44, 40);
+            pictx1chang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictx1chang.TabIndex = 8;
+            pictx1chang.TabStop = false;
+            pictx1chang.Click += pictx1chang_Click;
             // 
             // label30
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(10, 228);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(61, 20);
-            this.label30.TabIndex = 7;
-            this.label30.Text = "z轴转动";
+            label30.AutoSize = true;
+            label30.Location = new System.Drawing.Point(10, 228);
+            label30.Name = "label30";
+            label30.Size = new System.Drawing.Size(61, 20);
+            label30.TabIndex = 7;
+            label30.Text = "z轴转动";
             // 
             // label34
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(242, 178);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(62, 20);
-            this.label34.TabIndex = 7;
-            this.label34.Text = "x轴转动";
+            label34.AutoSize = true;
+            label34.Location = new System.Drawing.Point(242, 178);
+            label34.Name = "label34";
+            label34.Size = new System.Drawing.Size(62, 20);
+            label34.TabIndex = 7;
+            label34.Text = "x轴转动";
             // 
             // pictx1dian
             // 
-            this.pictx1dian.BackColor = System.Drawing.Color.White;
-            this.pictx1dian.Image = global::LQF_PolishingSystem.Properties.Resources.旋转_2;
-            this.pictx1dian.Location = new System.Drawing.Point(95, 166);
-            this.pictx1dian.Name = "pictx1dian";
-            this.pictx1dian.Size = new System.Drawing.Size(44, 40);
-            this.pictx1dian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictx1dian.TabIndex = 8;
-            this.pictx1dian.TabStop = false;
-            this.pictx1dian.Click += new System.EventHandler(this.pictx1dian_Click);
-            this.pictx1dian.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictx1dian_MouseDown);
-            this.pictx1dian.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictx1dian_MouseUp);
+            pictx1dian.BackColor = System.Drawing.Color.White;
+            pictx1dian.Image = Properties.Resources.旋转_2;
+            pictx1dian.Location = new System.Drawing.Point(95, 166);
+            pictx1dian.Name = "pictx1dian";
+            pictx1dian.Size = new System.Drawing.Size(44, 40);
+            pictx1dian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            pictx1dian.TabIndex = 8;
+            pictx1dian.TabStop = false;
+            pictx1dian.Click += pictx1dian_Click;
+            pictx1dian.MouseDown += pictx1dian_MouseDown;
+            pictx1dian.MouseUp += pictx1dian_MouseUp;
             // 
             // label29
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(10, 182);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(62, 20);
-            this.label29.TabIndex = 7;
-            this.label29.Text = "x轴转动";
+            label29.AutoSize = true;
+            label29.Location = new System.Drawing.Point(10, 182);
+            label29.Name = "label29";
+            label29.Size = new System.Drawing.Size(62, 20);
+            label29.TabIndex = 7;
+            label29.Text = "x轴转动";
             // 
             // butpao2dian
             // 
-            this.butpao2dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butpao2dian.Location = new System.Drawing.Point(154, 258);
-            this.butpao2dian.Name = "butpao2dian";
-            this.butpao2dian.Size = new System.Drawing.Size(44, 40);
-            this.butpao2dian.TabIndex = 5;
-            this.butpao2dian.Text = "-";
-            this.butpao2dian.UseVisualStyleBackColor = true;
-            this.butpao2dian.Click += new System.EventHandler(this.butpao2dian_Click);
+            butpao2dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butpao2dian.Location = new System.Drawing.Point(154, 258);
+            butpao2dian.Name = "butpao2dian";
+            butpao2dian.Size = new System.Drawing.Size(44, 40);
+            butpao2dian.TabIndex = 5;
+            butpao2dian.Text = "-";
+            butpao2dian.UseVisualStyleBackColor = true;
+            butpao2dian.Click += butpao2dian_Click;
             // 
             // butpao2chang
             // 
-            this.butpao2chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butpao2chang.Location = new System.Drawing.Point(383, 258);
-            this.butpao2chang.Name = "butpao2chang";
-            this.butpao2chang.Size = new System.Drawing.Size(44, 40);
-            this.butpao2chang.TabIndex = 5;
-            this.butpao2chang.Text = "-";
-            this.butpao2chang.UseVisualStyleBackColor = true;
-            this.butpao2chang.Click += new System.EventHandler(this.butpao2chang_Click);
+            butpao2chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butpao2chang.Location = new System.Drawing.Point(383, 258);
+            butpao2chang.Name = "butpao2chang";
+            butpao2chang.Size = new System.Drawing.Size(44, 40);
+            butpao2chang.TabIndex = 5;
+            butpao2chang.Text = "-";
+            butpao2chang.UseVisualStyleBackColor = true;
+            butpao2chang.Click += butpao2chang_Click;
             // 
             // butz2chang
             // 
-            this.butz2chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butz2chang.Location = new System.Drawing.Point(383, 120);
-            this.butz2chang.Name = "butz2chang";
-            this.butz2chang.Size = new System.Drawing.Size(44, 40);
-            this.butz2chang.TabIndex = 5;
-            this.butz2chang.Text = "-";
-            this.butz2chang.UseVisualStyleBackColor = true;
-            this.butz2chang.Click += new System.EventHandler(this.butz2chang_Click);
+            butz2chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butz2chang.Location = new System.Drawing.Point(383, 120);
+            butz2chang.Name = "butz2chang";
+            butz2chang.Size = new System.Drawing.Size(44, 40);
+            butz2chang.TabIndex = 5;
+            butz2chang.Text = "-";
+            butz2chang.UseVisualStyleBackColor = true;
+            butz2chang.Click += butz2chang_Click;
             // 
             // butzzhuanstop
             // 
-            this.butzzhuanstop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butzzhuanstop.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butzzhuanstop.Location = new System.Drawing.Point(511, 211);
-            this.butzzhuanstop.Name = "butzzhuanstop";
-            this.butzzhuanstop.Size = new System.Drawing.Size(61, 40);
-            this.butzzhuanstop.TabIndex = 5;
-            this.butzzhuanstop.Text = "急停";
-            this.butzzhuanstop.UseVisualStyleBackColor = false;
-            this.butzzhuanstop.Click += new System.EventHandler(this.butzzhuanstop_Click);
+            butzzhuanstop.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butzzhuanstop.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butzzhuanstop.Location = new System.Drawing.Point(511, 211);
+            butzzhuanstop.Name = "butzzhuanstop";
+            butzzhuanstop.Size = new System.Drawing.Size(61, 40);
+            butzzhuanstop.TabIndex = 5;
+            butzzhuanstop.Text = "急停";
+            butzzhuanstop.UseVisualStyleBackColor = false;
+            butzzhuanstop.Click += butzzhuanstop_Click;
             // 
             // butpaostop2
             // 
-            this.butpaostop2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butpaostop2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butpaostop2.Location = new System.Drawing.Point(511, 257);
-            this.butpaostop2.Name = "butpaostop2";
-            this.butpaostop2.Size = new System.Drawing.Size(61, 40);
-            this.butpaostop2.TabIndex = 5;
-            this.butpaostop2.Text = "急停";
-            this.butpaostop2.UseVisualStyleBackColor = false;
-            this.butpaostop2.Click += new System.EventHandler(this.butpaostop2_Click);
+            butpaostop2.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butpaostop2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butpaostop2.Location = new System.Drawing.Point(511, 257);
+            butpaostop2.Name = "butpaostop2";
+            butpaostop2.Size = new System.Drawing.Size(61, 40);
+            butpaostop2.TabIndex = 5;
+            butpaostop2.Text = "急停";
+            butpaostop2.UseVisualStyleBackColor = false;
+            butpaostop2.Click += butpaostop2_Click;
             // 
             // butxzhuanstop
             // 
-            this.butxzhuanstop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butxzhuanstop.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butxzhuanstop.Location = new System.Drawing.Point(511, 165);
-            this.butxzhuanstop.Name = "butxzhuanstop";
-            this.butxzhuanstop.Size = new System.Drawing.Size(61, 40);
-            this.butxzhuanstop.TabIndex = 5;
-            this.butxzhuanstop.Text = "急停";
-            this.butxzhuanstop.UseVisualStyleBackColor = false;
-            this.butxzhuanstop.Click += new System.EventHandler(this.butxzhuanstop_Click);
+            butxzhuanstop.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butxzhuanstop.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butxzhuanstop.Location = new System.Drawing.Point(511, 165);
+            butxzhuanstop.Name = "butxzhuanstop";
+            butxzhuanstop.Size = new System.Drawing.Size(61, 40);
+            butxzhuanstop.TabIndex = 5;
+            butxzhuanstop.Text = "急停";
+            butxzhuanstop.UseVisualStyleBackColor = false;
+            butxzhuanstop.Click += butxzhuanstop_Click;
             // 
             // butzchangstop
             // 
-            this.butzchangstop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butzchangstop.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butzchangstop.Location = new System.Drawing.Point(511, 119);
-            this.butzchangstop.Name = "butzchangstop";
-            this.butzchangstop.Size = new System.Drawing.Size(61, 40);
-            this.butzchangstop.TabIndex = 5;
-            this.butzchangstop.Text = "急停";
-            this.butzchangstop.UseVisualStyleBackColor = false;
-            this.butzchangstop.Click += new System.EventHandler(this.butzchangstop_Click);
+            butzchangstop.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butzchangstop.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butzchangstop.Location = new System.Drawing.Point(511, 119);
+            butzchangstop.Name = "butzchangstop";
+            butzchangstop.Size = new System.Drawing.Size(61, 40);
+            butzchangstop.TabIndex = 5;
+            butzchangstop.Text = "急停";
+            butzchangstop.UseVisualStyleBackColor = false;
+            butzchangstop.Click += butzchangstop_Click;
             // 
             // butychangstop
             // 
-            this.butychangstop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butychangstop.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butychangstop.Location = new System.Drawing.Point(511, 71);
-            this.butychangstop.Name = "butychangstop";
-            this.butychangstop.Size = new System.Drawing.Size(61, 40);
-            this.butychangstop.TabIndex = 5;
-            this.butychangstop.Text = "急停";
-            this.butychangstop.UseVisualStyleBackColor = false;
-            this.butychangstop.Click += new System.EventHandler(this.butychangstop_Click);
+            butychangstop.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butychangstop.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butychangstop.Location = new System.Drawing.Point(511, 71);
+            butychangstop.Name = "butychangstop";
+            butychangstop.Size = new System.Drawing.Size(61, 40);
+            butychangstop.TabIndex = 5;
+            butychangstop.Text = "急停";
+            butychangstop.UseVisualStyleBackColor = false;
+            butychangstop.Click += butychangstop_Click;
             // 
             // buty2chang
             // 
-            this.buty2chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buty2chang.Location = new System.Drawing.Point(383, 72);
-            this.buty2chang.Name = "buty2chang";
-            this.buty2chang.Size = new System.Drawing.Size(44, 40);
-            this.buty2chang.TabIndex = 5;
-            this.buty2chang.Text = "-";
-            this.buty2chang.UseVisualStyleBackColor = true;
-            this.buty2chang.Click += new System.EventHandler(this.buty2chang_Click);
+            buty2chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            buty2chang.Location = new System.Drawing.Point(383, 72);
+            buty2chang.Name = "buty2chang";
+            buty2chang.Size = new System.Drawing.Size(44, 40);
+            buty2chang.TabIndex = 5;
+            buty2chang.Text = "-";
+            buty2chang.UseVisualStyleBackColor = true;
+            buty2chang.Click += buty2chang_Click;
             // 
             // butz2dian
             // 
-            this.butz2dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butz2dian.Location = new System.Drawing.Point(154, 120);
-            this.butz2dian.Name = "butz2dian";
-            this.butz2dian.Size = new System.Drawing.Size(44, 40);
-            this.butz2dian.TabIndex = 5;
-            this.butz2dian.Text = "-";
-            this.butz2dian.UseVisualStyleBackColor = true;
-            this.butz2dian.Click += new System.EventHandler(this.butz2dian_Click);
-            this.butz2dian.MouseDown += new System.Windows.Forms.MouseEventHandler(this.butz2dian_MouseDown);
-            this.butz2dian.MouseUp += new System.Windows.Forms.MouseEventHandler(this.butz2dian_MouseUp);
+            butz2dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butz2dian.Location = new System.Drawing.Point(154, 120);
+            butz2dian.Name = "butz2dian";
+            butz2dian.Size = new System.Drawing.Size(44, 40);
+            butz2dian.TabIndex = 5;
+            butz2dian.Text = "-";
+            butz2dian.UseVisualStyleBackColor = true;
+            butz2dian.Click += butz2dian_Click;
+            butz2dian.MouseDown += butz2dian_MouseDown;
+            butz2dian.MouseUp += butz2dian_MouseUp;
             // 
             // butpaohuanting
             // 
-            this.butpaohuanting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butpaohuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butpaohuanting.Location = new System.Drawing.Point(444, 258);
-            this.butpaohuanting.Name = "butpaohuanting";
-            this.butpaohuanting.Size = new System.Drawing.Size(61, 40);
-            this.butpaohuanting.TabIndex = 5;
-            this.butpaohuanting.Text = "缓停";
-            this.butpaohuanting.UseVisualStyleBackColor = false;
-            this.butpaohuanting.Click += new System.EventHandler(this.butbutpaohuanting);
+            butpaohuanting.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butpaohuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butpaohuanting.Location = new System.Drawing.Point(444, 258);
+            butpaohuanting.Name = "butpaohuanting";
+            butpaohuanting.Size = new System.Drawing.Size(61, 40);
+            butpaohuanting.TabIndex = 5;
+            butpaohuanting.Text = "缓停";
+            butpaohuanting.UseVisualStyleBackColor = false;
+            butpaohuanting.Click += butbutpaohuanting;
             // 
             // butzzhuanhuanting
             // 
-            this.butzzhuanhuanting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butzzhuanhuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butzzhuanhuanting.Location = new System.Drawing.Point(444, 212);
-            this.butzzhuanhuanting.Name = "butzzhuanhuanting";
-            this.butzzhuanhuanting.Size = new System.Drawing.Size(61, 40);
-            this.butzzhuanhuanting.TabIndex = 5;
-            this.butzzhuanhuanting.Text = "缓停";
-            this.butzzhuanhuanting.UseVisualStyleBackColor = false;
-            this.butzzhuanhuanting.Click += new System.EventHandler(this.butzzhuanhuanting_Click);
+            butzzhuanhuanting.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butzzhuanhuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butzzhuanhuanting.Location = new System.Drawing.Point(444, 212);
+            butzzhuanhuanting.Name = "butzzhuanhuanting";
+            butzzhuanhuanting.Size = new System.Drawing.Size(61, 40);
+            butzzhuanhuanting.TabIndex = 5;
+            butzzhuanhuanting.Text = "缓停";
+            butzzhuanhuanting.UseVisualStyleBackColor = false;
+            butzzhuanhuanting.Click += butzzhuanhuanting_Click;
             // 
             // butxzhuanhuanting
             // 
-            this.butxzhuanhuanting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butxzhuanhuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butxzhuanhuanting.Location = new System.Drawing.Point(444, 166);
-            this.butxzhuanhuanting.Name = "butxzhuanhuanting";
-            this.butxzhuanhuanting.Size = new System.Drawing.Size(61, 40);
-            this.butxzhuanhuanting.TabIndex = 5;
-            this.butxzhuanhuanting.Text = "缓停";
-            this.butxzhuanhuanting.UseVisualStyleBackColor = false;
-            this.butxzhuanhuanting.Click += new System.EventHandler(this.butxzhuanhuanting_Click);
+            butxzhuanhuanting.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butxzhuanhuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butxzhuanhuanting.Location = new System.Drawing.Point(444, 166);
+            butxzhuanhuanting.Name = "butxzhuanhuanting";
+            butxzhuanhuanting.Size = new System.Drawing.Size(61, 40);
+            butxzhuanhuanting.TabIndex = 5;
+            butxzhuanhuanting.Text = "缓停";
+            butxzhuanhuanting.UseVisualStyleBackColor = false;
+            butxzhuanhuanting.Click += butxzhuanhuanting_Click;
             // 
             // butzchanghuanting
             // 
-            this.butzchanghuanting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butzchanghuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butzchanghuanting.Location = new System.Drawing.Point(444, 120);
-            this.butzchanghuanting.Name = "butzchanghuanting";
-            this.butzchanghuanting.Size = new System.Drawing.Size(61, 40);
-            this.butzchanghuanting.TabIndex = 5;
-            this.butzchanghuanting.Text = "缓停";
-            this.butzchanghuanting.UseVisualStyleBackColor = false;
-            this.butzchanghuanting.Click += new System.EventHandler(this.butzchanghuanting_Click);
+            butzchanghuanting.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butzchanghuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butzchanghuanting.Location = new System.Drawing.Point(444, 120);
+            butzchanghuanting.Name = "butzchanghuanting";
+            butzchanghuanting.Size = new System.Drawing.Size(61, 40);
+            butzchanghuanting.TabIndex = 5;
+            butzchanghuanting.Text = "缓停";
+            butzchanghuanting.UseVisualStyleBackColor = false;
+            butzchanghuanting.Click += butzchanghuanting_Click;
             // 
             // butychanghuanting
             // 
-            this.butychanghuanting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butychanghuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butychanghuanting.Location = new System.Drawing.Point(444, 72);
-            this.butychanghuanting.Name = "butychanghuanting";
-            this.butychanghuanting.Size = new System.Drawing.Size(61, 40);
-            this.butychanghuanting.TabIndex = 5;
-            this.butychanghuanting.Text = "缓停";
-            this.butychanghuanting.UseVisualStyleBackColor = false;
-            this.butychanghuanting.Click += new System.EventHandler(this.butychanghuanting_Click);
+            butychanghuanting.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butychanghuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butychanghuanting.Location = new System.Drawing.Point(444, 72);
+            butychanghuanting.Name = "butychanghuanting";
+            butychanghuanting.Size = new System.Drawing.Size(61, 40);
+            butychanghuanting.TabIndex = 5;
+            butychanghuanting.Text = "缓停";
+            butychanghuanting.UseVisualStyleBackColor = false;
+            butychanghuanting.Click += butychanghuanting_Click;
             // 
             // butxchanghuanting
             // 
-            this.butxchanghuanting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butxchanghuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butxchanghuanting.Location = new System.Drawing.Point(444, 22);
-            this.butxchanghuanting.Name = "butxchanghuanting";
-            this.butxchanghuanting.Size = new System.Drawing.Size(61, 40);
-            this.butxchanghuanting.TabIndex = 5;
-            this.butxchanghuanting.Text = "缓停";
-            this.butxchanghuanting.UseVisualStyleBackColor = false;
-            this.butxchanghuanting.Click += new System.EventHandler(this.butxchanghuanting_Click);
+            butxchanghuanting.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butxchanghuanting.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butxchanghuanting.Location = new System.Drawing.Point(444, 22);
+            butxchanghuanting.Name = "butxchanghuanting";
+            butxchanghuanting.Size = new System.Drawing.Size(61, 40);
+            butxchanghuanting.TabIndex = 5;
+            butxchanghuanting.Text = "缓停";
+            butxchanghuanting.UseVisualStyleBackColor = false;
+            butxchanghuanting.Click += butxchanghuanting_Click;
             // 
             // butxchangstop
             // 
-            this.butxchangstop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butxchangstop.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butxchangstop.Location = new System.Drawing.Point(511, 21);
-            this.butxchangstop.Name = "butxchangstop";
-            this.butxchangstop.Size = new System.Drawing.Size(61, 40);
-            this.butxchangstop.TabIndex = 5;
-            this.butxchangstop.Text = "急停";
-            this.butxchangstop.UseVisualStyleBackColor = false;
-            this.butxchangstop.Click += new System.EventHandler(this.butxchangstop_Click);
+            butxchangstop.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butxchangstop.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butxchangstop.Location = new System.Drawing.Point(511, 21);
+            butxchangstop.Name = "butxchangstop";
+            butxchangstop.Size = new System.Drawing.Size(61, 40);
+            butxchangstop.TabIndex = 5;
+            butxchangstop.Text = "急停";
+            butxchangstop.UseVisualStyleBackColor = false;
+            butxchangstop.Click += butxchangstop_Click;
             // 
             // butx2chang
             // 
-            this.butx2chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butx2chang.Location = new System.Drawing.Point(383, 22);
-            this.butx2chang.Name = "butx2chang";
-            this.butx2chang.Size = new System.Drawing.Size(44, 40);
-            this.butx2chang.TabIndex = 5;
-            this.butx2chang.Text = "-";
-            this.butx2chang.UseVisualStyleBackColor = true;
-            this.butx2chang.Click += new System.EventHandler(this.butx2chang_Click);
+            butx2chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butx2chang.Location = new System.Drawing.Point(383, 22);
+            butx2chang.Name = "butx2chang";
+            butx2chang.Size = new System.Drawing.Size(44, 40);
+            butx2chang.TabIndex = 5;
+            butx2chang.Text = "-";
+            butx2chang.UseVisualStyleBackColor = true;
+            butx2chang.Click += butx2chang_Click;
             // 
             // butpao1dian
             // 
-            this.butpao1dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butpao1dian.Location = new System.Drawing.Point(95, 258);
-            this.butpao1dian.Name = "butpao1dian";
-            this.butpao1dian.Size = new System.Drawing.Size(44, 40);
-            this.butpao1dian.TabIndex = 5;
-            this.butpao1dian.Text = "+";
-            this.butpao1dian.UseVisualStyleBackColor = true;
-            this.butpao1dian.Click += new System.EventHandler(this.butpao1dian_Click);
+            butpao1dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butpao1dian.Location = new System.Drawing.Point(95, 258);
+            butpao1dian.Name = "butpao1dian";
+            butpao1dian.Size = new System.Drawing.Size(44, 40);
+            butpao1dian.TabIndex = 5;
+            butpao1dian.Text = "+";
+            butpao1dian.UseVisualStyleBackColor = true;
+            butpao1dian.Click += butpao1dian_Click;
             // 
             // butpao1chang
             // 
-            this.butpao1chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butpao1chang.Location = new System.Drawing.Point(324, 258);
-            this.butpao1chang.Name = "butpao1chang";
-            this.butpao1chang.Size = new System.Drawing.Size(44, 40);
-            this.butpao1chang.TabIndex = 5;
-            this.butpao1chang.Text = "+";
-            this.butpao1chang.UseVisualStyleBackColor = true;
-            this.butpao1chang.Click += new System.EventHandler(this.butpao1chang_Click);
+            butpao1chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butpao1chang.Location = new System.Drawing.Point(324, 258);
+            butpao1chang.Name = "butpao1chang";
+            butpao1chang.Size = new System.Drawing.Size(44, 40);
+            butpao1chang.TabIndex = 5;
+            butpao1chang.Text = "+";
+            butpao1chang.UseVisualStyleBackColor = true;
+            butpao1chang.Click += butpao1chang_Click;
             // 
             // buty2dian
             // 
-            this.buty2dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buty2dian.Location = new System.Drawing.Point(154, 72);
-            this.buty2dian.Name = "buty2dian";
-            this.buty2dian.Size = new System.Drawing.Size(44, 40);
-            this.buty2dian.TabIndex = 5;
-            this.buty2dian.Text = "-";
-            this.buty2dian.UseVisualStyleBackColor = true;
-            this.buty2dian.Click += new System.EventHandler(this.buty2dian_Click);
-            this.buty2dian.MouseDown += new System.Windows.Forms.MouseEventHandler(this.buty2dian_MouseDown);
-            this.buty2dian.MouseUp += new System.Windows.Forms.MouseEventHandler(this.buty2dian_MouseUp);
+            buty2dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            buty2dian.Location = new System.Drawing.Point(154, 72);
+            buty2dian.Name = "buty2dian";
+            buty2dian.Size = new System.Drawing.Size(44, 40);
+            buty2dian.TabIndex = 5;
+            buty2dian.Text = "-";
+            buty2dian.UseVisualStyleBackColor = true;
+            buty2dian.Click += buty2dian_Click;
+            buty2dian.MouseDown += buty2dian_MouseDown;
+            buty2dian.MouseUp += buty2dian_MouseUp;
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(10, 272);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(54, 20);
-            this.label15.TabIndex = 4;
-            this.label15.Text = "抛光轮";
+            label15.AutoSize = true;
+            label15.Location = new System.Drawing.Point(10, 272);
+            label15.Name = "label15";
+            label15.Size = new System.Drawing.Size(54, 20);
+            label15.TabIndex = 4;
+            label15.Text = "抛光轮";
             // 
             // butz1chang
             // 
-            this.butz1chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butz1chang.Location = new System.Drawing.Point(324, 120);
-            this.butz1chang.Name = "butz1chang";
-            this.butz1chang.Size = new System.Drawing.Size(44, 40);
-            this.butz1chang.TabIndex = 5;
-            this.butz1chang.Text = "+";
-            this.butz1chang.UseVisualStyleBackColor = true;
-            this.butz1chang.Click += new System.EventHandler(this.butz1chang_Click);
+            butz1chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butz1chang.Location = new System.Drawing.Point(324, 120);
+            butz1chang.Name = "butz1chang";
+            butz1chang.Size = new System.Drawing.Size(44, 40);
+            butz1chang.TabIndex = 5;
+            butz1chang.Text = "+";
+            butz1chang.UseVisualStyleBackColor = true;
+            butz1chang.Click += butz1chang_Click;
             // 
             // label36
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(243, 268);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(54, 20);
-            this.label36.TabIndex = 4;
-            this.label36.Text = "抛光轮";
+            label36.AutoSize = true;
+            label36.Location = new System.Drawing.Point(243, 268);
+            label36.Name = "label36";
+            label36.Size = new System.Drawing.Size(54, 20);
+            label36.TabIndex = 4;
+            label36.Text = "抛光轮";
             // 
             // butx2dian
             // 
-            this.butx2dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butx2dian.Location = new System.Drawing.Point(154, 22);
-            this.butx2dian.Name = "butx2dian";
-            this.butx2dian.Size = new System.Drawing.Size(44, 40);
-            this.butx2dian.TabIndex = 5;
-            this.butx2dian.Text = "-";
-            this.butx2dian.UseVisualStyleBackColor = true;
-            this.butx2dian.Click += new System.EventHandler(this.butx2dian_Click);
-            this.butx2dian.MouseDown += new System.Windows.Forms.MouseEventHandler(this.butx2dian_MouseDown);
-            this.butx2dian.MouseUp += new System.Windows.Forms.MouseEventHandler(this.butx2dian_MouseUp);
+            butx2dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butx2dian.Location = new System.Drawing.Point(154, 22);
+            butx2dian.Name = "butx2dian";
+            butx2dian.Size = new System.Drawing.Size(44, 40);
+            butx2dian.TabIndex = 5;
+            butx2dian.Text = "-";
+            butx2dian.UseVisualStyleBackColor = true;
+            butx2dian.Click += butx2dian_Click;
+            butx2dian.MouseDown += butx2dian_MouseDown;
+            butx2dian.MouseUp += butx2dian_MouseUp;
             // 
             // label33
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(243, 130);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(61, 20);
-            this.label33.TabIndex = 4;
-            this.label33.Text = "z轴直动";
+            label33.AutoSize = true;
+            label33.Location = new System.Drawing.Point(243, 130);
+            label33.Name = "label33";
+            label33.Size = new System.Drawing.Size(61, 20);
+            label33.TabIndex = 4;
+            label33.Text = "z轴直动";
             // 
             // butz1dian
             // 
-            this.butz1dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butz1dian.Location = new System.Drawing.Point(95, 120);
-            this.butz1dian.Name = "butz1dian";
-            this.butz1dian.Size = new System.Drawing.Size(44, 40);
-            this.butz1dian.TabIndex = 5;
-            this.butz1dian.Text = "+";
-            this.butz1dian.UseVisualStyleBackColor = true;
-            this.butz1dian.Click += new System.EventHandler(this.butz1dian_Click);
-            this.butz1dian.MouseDown += new System.Windows.Forms.MouseEventHandler(this.butz1dian_MouseDown);
-            this.butz1dian.MouseUp += new System.Windows.Forms.MouseEventHandler(this.butz1dian_MouseUp);
+            butz1dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butz1dian.Location = new System.Drawing.Point(95, 120);
+            butz1dian.Name = "butz1dian";
+            butz1dian.Size = new System.Drawing.Size(44, 40);
+            butz1dian.TabIndex = 5;
+            butz1dian.Text = "+";
+            butz1dian.UseVisualStyleBackColor = true;
+            butz1dian.Click += butz1dian_Click;
+            butz1dian.MouseDown += butz1dian_MouseDown;
+            butz1dian.MouseUp += butz1dian_MouseUp;
             // 
             // buty1chang
             // 
-            this.buty1chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buty1chang.Location = new System.Drawing.Point(324, 72);
-            this.buty1chang.Name = "buty1chang";
-            this.buty1chang.Size = new System.Drawing.Size(44, 40);
-            this.buty1chang.TabIndex = 5;
-            this.buty1chang.Text = "+";
-            this.buty1chang.UseVisualStyleBackColor = true;
-            this.buty1chang.Click += new System.EventHandler(this.buty1chang_Click);
+            buty1chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            buty1chang.Location = new System.Drawing.Point(324, 72);
+            buty1chang.Name = "buty1chang";
+            buty1chang.Size = new System.Drawing.Size(44, 40);
+            buty1chang.TabIndex = 5;
+            buty1chang.Text = "+";
+            buty1chang.UseVisualStyleBackColor = true;
+            buty1chang.Click += buty1chang_Click;
             // 
             // label28
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(10, 134);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(61, 20);
-            this.label28.TabIndex = 4;
-            this.label28.Text = "z轴直动";
+            label28.AutoSize = true;
+            label28.Location = new System.Drawing.Point(10, 134);
+            label28.Name = "label28";
+            label28.Size = new System.Drawing.Size(61, 20);
+            label28.TabIndex = 4;
+            label28.Text = "z轴直动";
             // 
             // label32
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(242, 82);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(62, 20);
-            this.label32.TabIndex = 4;
-            this.label32.Text = "y轴直动";
+            label32.AutoSize = true;
+            label32.Location = new System.Drawing.Point(242, 82);
+            label32.Name = "label32";
+            label32.Size = new System.Drawing.Size(62, 20);
+            label32.TabIndex = 4;
+            label32.Text = "y轴直动";
             // 
             // buty1dian
             // 
-            this.buty1dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buty1dian.Location = new System.Drawing.Point(95, 72);
-            this.buty1dian.Name = "buty1dian";
-            this.buty1dian.Size = new System.Drawing.Size(44, 40);
-            this.buty1dian.TabIndex = 5;
-            this.buty1dian.Text = "+";
-            this.buty1dian.UseVisualStyleBackColor = true;
-            this.buty1dian.Click += new System.EventHandler(this.buty1dian_Click);
-            this.buty1dian.MouseDown += new System.Windows.Forms.MouseEventHandler(this.buty1dian_MouseDown);
-            this.buty1dian.MouseUp += new System.Windows.Forms.MouseEventHandler(this.buty1dian_MouseUp);
+            buty1dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            buty1dian.Location = new System.Drawing.Point(95, 72);
+            buty1dian.Name = "buty1dian";
+            buty1dian.Size = new System.Drawing.Size(44, 40);
+            buty1dian.TabIndex = 5;
+            buty1dian.Text = "+";
+            buty1dian.UseVisualStyleBackColor = true;
+            buty1dian.Click += buty1dian_Click;
+            buty1dian.MouseDown += buty1dian_MouseDown;
+            buty1dian.MouseUp += buty1dian_MouseUp;
             // 
             // butx1chang
             // 
-            this.butx1chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butx1chang.Location = new System.Drawing.Point(324, 22);
-            this.butx1chang.Name = "butx1chang";
-            this.butx1chang.Size = new System.Drawing.Size(44, 40);
-            this.butx1chang.TabIndex = 5;
-            this.butx1chang.Text = "+";
-            this.butx1chang.UseVisualStyleBackColor = true;
-            this.butx1chang.Click += new System.EventHandler(this.butx1chang_Click);
+            butx1chang.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butx1chang.Location = new System.Drawing.Point(324, 22);
+            butx1chang.Name = "butx1chang";
+            butx1chang.Size = new System.Drawing.Size(44, 40);
+            butx1chang.TabIndex = 5;
+            butx1chang.Text = "+";
+            butx1chang.UseVisualStyleBackColor = true;
+            butx1chang.Click += butx1chang_Click;
             // 
             // label27
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(10, 86);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(62, 20);
-            this.label27.TabIndex = 4;
-            this.label27.Text = "y轴直动";
+            label27.AutoSize = true;
+            label27.Location = new System.Drawing.Point(10, 86);
+            label27.Name = "label27";
+            label27.Size = new System.Drawing.Size(62, 20);
+            label27.TabIndex = 4;
+            label27.Text = "y轴直动";
             // 
             // label31
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(241, 32);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(62, 20);
-            this.label31.TabIndex = 4;
-            this.label31.Text = "x轴直动";
+            label31.AutoSize = true;
+            label31.Location = new System.Drawing.Point(241, 32);
+            label31.Name = "label31";
+            label31.Size = new System.Drawing.Size(62, 20);
+            label31.TabIndex = 4;
+            label31.Text = "x轴直动";
             // 
             // butx1dian
             // 
-            this.butx1dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.butx1dian.Location = new System.Drawing.Point(95, 22);
-            this.butx1dian.Name = "butx1dian";
-            this.butx1dian.Size = new System.Drawing.Size(44, 40);
-            this.butx1dian.TabIndex = 5;
-            this.butx1dian.Text = "+";
-            this.butx1dian.UseVisualStyleBackColor = true;
-            this.butx1dian.Click += new System.EventHandler(this.butx1dian_Click);
-            this.butx1dian.MouseDown += new System.Windows.Forms.MouseEventHandler(this.butx1dian_MouseDown);
-            this.butx1dian.MouseUp += new System.Windows.Forms.MouseEventHandler(this.butx1dian_MouseUp);
+            butx1dian.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
+            butx1dian.Location = new System.Drawing.Point(95, 22);
+            butx1dian.Name = "butx1dian";
+            butx1dian.Size = new System.Drawing.Size(44, 40);
+            butx1dian.TabIndex = 5;
+            butx1dian.Text = "+";
+            butx1dian.UseVisualStyleBackColor = true;
+            butx1dian.Click += butx1dian_Click;
+            butx1dian.MouseDown += butx1dian_MouseDown;
+            butx1dian.MouseUp += butx1dian_MouseUp;
             // 
             // label26
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(10, 36);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(62, 20);
-            this.label26.TabIndex = 4;
-            this.label26.Text = "x轴直动";
+            label26.AutoSize = true;
+            label26.Location = new System.Drawing.Point(10, 36);
+            label26.Name = "label26";
+            label26.Size = new System.Drawing.Size(62, 20);
+            label26.TabIndex = 4;
+            label26.Text = "x轴直动";
             // 
             // label25
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(596, 20);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(69, 20);
-            this.label25.TabIndex = 1;
-            this.label25.Text = "选择模式";
+            label25.AutoSize = true;
+            label25.Location = new System.Drawing.Point(596, 20);
+            label25.Name = "label25";
+            label25.Size = new System.Drawing.Size(69, 20);
+            label25.TabIndex = 1;
+            label25.Text = "选择模式";
             // 
             // panel3
             // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.label53);
-            this.panel3.Controls.Add(this.textBcishu);
-            this.panel3.Controls.Add(this.textBzhijing);
-            this.panel3.Controls.Add(this.textBxjuli);
-            this.panel3.Controls.Add(this.textByjuli);
-            this.panel3.Controls.Add(this.butkaishi);
-            this.panel3.Controls.Add(this.label40);
-            this.panel3.Controls.Add(this.label41);
-            this.panel3.Controls.Add(this.label39);
-            this.panel3.Controls.Add(this.label55);
-            this.panel3.Controls.Add(this.label54);
-            this.panel3.Controls.Add(this.label38);
-            this.panel3.Controls.Add(this.combzouxiang);
-            this.panel3.Controls.Add(this.combguiji);
-            this.panel3.Location = new System.Drawing.Point(4, 453);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(692, 130);
-            this.panel3.TabIndex = 2;
+            panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            panel3.Controls.Add(label53);
+            panel3.Controls.Add(textBcishu);
+            panel3.Controls.Add(textBzhijing);
+            panel3.Controls.Add(textBxjuli);
+            panel3.Controls.Add(textByjuli);
+            panel3.Controls.Add(butkaishi);
+            panel3.Controls.Add(label40);
+            panel3.Controls.Add(label41);
+            panel3.Controls.Add(label39);
+            panel3.Controls.Add(label55);
+            panel3.Controls.Add(label54);
+            panel3.Controls.Add(label38);
+            panel3.Controls.Add(combzouxiang);
+            panel3.Controls.Add(combguiji);
+            panel3.Location = new System.Drawing.Point(4, 453);
+            panel3.Name = "panel3";
+            panel3.Size = new System.Drawing.Size(692, 130);
+            panel3.TabIndex = 2;
             // 
             // label53
             // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(9, 15);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(232, 20);
-            this.label53.TabIndex = 11;
-            this.label53.Text = "设置最大行程距离（单位：mm）";
+            label53.AutoSize = true;
+            label53.Location = new System.Drawing.Point(9, 15);
+            label53.Name = "label53";
+            label53.Size = new System.Drawing.Size(232, 20);
+            label53.TabIndex = 11;
+            label53.Text = "设置最大行程距离（单位：mm）";
             // 
             // textBcishu
             // 
-            this.textBcishu.Location = new System.Drawing.Point(293, 84);
-            this.textBcishu.Name = "textBcishu";
-            this.textBcishu.Size = new System.Drawing.Size(90, 27);
-            this.textBcishu.TabIndex = 10;
+            textBcishu.Location = new System.Drawing.Point(293, 84);
+            textBcishu.Name = "textBcishu";
+            textBcishu.Size = new System.Drawing.Size(90, 27);
+            textBcishu.TabIndex = 10;
             // 
             // textBzhijing
             // 
-            this.textBzhijing.Location = new System.Drawing.Point(497, 83);
-            this.textBzhijing.Name = "textBzhijing";
-            this.textBzhijing.Size = new System.Drawing.Size(90, 27);
-            this.textBzhijing.TabIndex = 10;
+            textBzhijing.Location = new System.Drawing.Point(497, 83);
+            textBzhijing.Name = "textBzhijing";
+            textBzhijing.Size = new System.Drawing.Size(90, 27);
+            textBzhijing.TabIndex = 10;
             // 
             // textBxjuli
             // 
-            this.textBxjuli.Location = new System.Drawing.Point(293, 44);
-            this.textBxjuli.Name = "textBxjuli";
-            this.textBxjuli.Size = new System.Drawing.Size(90, 27);
-            this.textBxjuli.TabIndex = 10;
-            
+            textBxjuli.Location = new System.Drawing.Point(293, 44);
+            textBxjuli.Name = "textBxjuli";
+            textBxjuli.Size = new System.Drawing.Size(90, 27);
+            textBxjuli.TabIndex = 10;
             // 
             // textByjuli
             // 
-            this.textByjuli.Location = new System.Drawing.Point(497, 43);
-            this.textByjuli.Name = "textByjuli";
-            this.textByjuli.Size = new System.Drawing.Size(90, 27);
-            this.textByjuli.TabIndex = 10;
+            textByjuli.Location = new System.Drawing.Point(497, 43);
+            textByjuli.Name = "textByjuli";
+            textByjuli.Size = new System.Drawing.Size(90, 27);
+            textByjuli.TabIndex = 10;
             // 
             // butkaishi
             // 
-            this.butkaishi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.butkaishi.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.butkaishi.Location = new System.Drawing.Point(596, 47);
-            this.butkaishi.Name = "butkaishi";
-            this.butkaishi.Size = new System.Drawing.Size(84, 50);
-            this.butkaishi.TabIndex = 9;
-            this.butkaishi.Text = "开始";
-            this.butkaishi.UseVisualStyleBackColor = false;
-            this.butkaishi.Click += new System.EventHandler(this.butkaishi_Click);
+            butkaishi.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            butkaishi.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
+            butkaishi.Location = new System.Drawing.Point(596, 47);
+            butkaishi.Name = "butkaishi";
+            butkaishi.Size = new System.Drawing.Size(84, 50);
+            butkaishi.TabIndex = 9;
+            butkaishi.Text = "开始";
+            butkaishi.UseVisualStyleBackColor = false;
+            butkaishi.Click += butkaishi_Click;
             // 
             // label40
             // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(435, 46);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(47, 20);
-            this.label40.TabIndex = 0;
-            this.label40.Text = "y距离";
+            label40.AutoSize = true;
+            label40.Location = new System.Drawing.Point(435, 46);
+            label40.Name = "label40";
+            label40.Size = new System.Drawing.Size(47, 20);
+            label40.TabIndex = 0;
+            label40.Text = "y距离";
             // 
             // label41
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(435, 87);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(39, 20);
-            this.label41.TabIndex = 0;
-            this.label41.Text = "直径";
+            label41.AutoSize = true;
+            label41.Location = new System.Drawing.Point(435, 87);
+            label41.Name = "label41";
+            label41.Size = new System.Drawing.Size(39, 20);
+            label41.TabIndex = 0;
+            label41.Text = "直径";
             // 
             // label39
             // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(221, 47);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(47, 20);
-            this.label39.TabIndex = 0;
-            this.label39.Text = "x距离";
+            label39.AutoSize = true;
+            label39.Location = new System.Drawing.Point(221, 47);
+            label39.Name = "label39";
+            label39.Size = new System.Drawing.Size(47, 20);
+            label39.TabIndex = 0;
+            label39.Text = "x距离";
             // 
             // label55
             // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(221, 88);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(69, 20);
-            this.label55.TabIndex = 0;
-            this.label55.Text = "来回次数";
+            label55.AutoSize = true;
+            label55.Location = new System.Drawing.Point(221, 88);
+            label55.Name = "label55";
+            label55.Size = new System.Drawing.Size(69, 20);
+            label55.TabIndex = 0;
+            label55.Text = "来回次数";
             // 
             // label54
             // 
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(7, 87);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(69, 20);
-            this.label54.TabIndex = 0;
-            this.label54.Text = "初始走向";
+            label54.AutoSize = true;
+            label54.Location = new System.Drawing.Point(7, 87);
+            label54.Name = "label54";
+            label54.Size = new System.Drawing.Size(69, 20);
+            label54.TabIndex = 0;
+            label54.Text = "初始走向";
             // 
             // label38
             // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(7, 47);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(69, 20);
-            this.label38.TabIndex = 0;
-            this.label38.Text = "选择轨迹";
+            label38.AutoSize = true;
+            label38.Location = new System.Drawing.Point(7, 47);
+            label38.Name = "label38";
+            label38.Size = new System.Drawing.Size(69, 20);
+            label38.TabIndex = 0;
+            label38.Text = "选择轨迹";
             // 
             // combzouxiang
             // 
-            this.combzouxiang.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combzouxiang.FormattingEnabled = true;
-            this.combzouxiang.Items.AddRange(new object[] {
-            "x+",
-            "y+"});
-            this.combzouxiang.Location = new System.Drawing.Point(82, 84);
-            this.combzouxiang.Name = "combzouxiang";
-            this.combzouxiang.Size = new System.Drawing.Size(113, 28);
-            this.combzouxiang.TabIndex = 6;
+            combzouxiang.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            combzouxiang.FormattingEnabled = true;
+            combzouxiang.Items.AddRange(new object[] { "x+", "y+" });
+            combzouxiang.Location = new System.Drawing.Point(82, 84);
+            combzouxiang.Name = "combzouxiang";
+            combzouxiang.Size = new System.Drawing.Size(113, 28);
+            combzouxiang.TabIndex = 6;
             // 
             // combguiji
             // 
-            this.combguiji.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combguiji.FormattingEnabled = true;
-            this.combguiji.Items.AddRange(new object[] {
-            "行切法（栅格）",
-            "环切法"});
-            this.combguiji.Location = new System.Drawing.Point(82, 43);
-            this.combguiji.Name = "combguiji";
-            this.combguiji.Size = new System.Drawing.Size(113, 28);
-            this.combguiji.TabIndex = 6;
+            combguiji.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            combguiji.FormattingEnabled = true;
+            combguiji.Items.AddRange(new object[] { "行切法（栅格）", "环切法" });
+            combguiji.Location = new System.Drawing.Point(82, 43);
+            combguiji.Name = "combguiji";
+            combguiji.Size = new System.Drawing.Size(113, 28);
+            combguiji.TabIndex = 6;
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.panel3);
-            this.panel5.Controls.Add(this.panel7);
-            this.panel5.Controls.Add(this.panel6);
-            this.panel5.Location = new System.Drawing.Point(268, 12);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(699, 586);
-            this.panel5.TabIndex = 4;
+            panel5.Controls.Add(panel3);
+            panel5.Controls.Add(panel7);
+            panel5.Controls.Add(panel6);
+            panel5.Location = new System.Drawing.Point(268, 12);
+            panel5.Name = "panel5";
+            panel5.Size = new System.Drawing.Size(699, 586);
+            panel5.TabIndex = 4;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(980, 605);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Name = "Form1";
-            this.Text = "自动化设备运动控制上位机系统 - lqf";
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictz2chang)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictz2dian)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictx2chang)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictz1chang)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictx2dian)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictz1dian)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictx1chang)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictx1dian)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.ResumeLayout(false);
+            AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(1246, 605);
+            Controls.Add(panel5);
+            Controls.Add(panel4);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Name = "Form1";
+            Text = "自动化设备运动控制上位机系统 - lqf";
+            panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictz2chang).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictz2dian).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictx2chang).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictz1chang).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictx2dian).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictz1dian).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictx1chang).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictx1dian).EndInit();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            panel5.ResumeLayout(false);
+            ResumeLayout(false);
 
         }
 
